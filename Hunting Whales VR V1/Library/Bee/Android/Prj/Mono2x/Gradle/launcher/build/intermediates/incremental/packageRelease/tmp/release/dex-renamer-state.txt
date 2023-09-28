@@ -1,0 +1,4 @@
+#Wed Sep 27 11:01:36 CEST 2023
+base.0=C\:\\Users\\Caspe\\Game Projects\\Unity\\VR Project\\VR-Project\\My Hunting Whales - Vr Game V.1\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
