@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 17
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 22
+  controlID: 19
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -373,13 +373,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PolygonSciFiCity/Prefabs/Buildings
+    - Assets/PolygonSciFiCity/Prefabs/Signs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/PolygonSciFiCity/Prefabs/Buildings
+  - Assets/PolygonSciFiCity/Prefabs/Signs
   m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR
     V1
@@ -387,9 +387,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 341}
-    m_SelectedIDs: 08950000
-    m_LastClickedID: 38152
-    m_ExpandedIDs: 00000000a2940000a4940000a6940000a8940000aa94000000ca9a3b
+    m_SelectedIDs: d2960000
+    m_LastClickedID: 38610
+    m_ExpandedIDs: 00000000609600006296000064960000669600006896000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2940000a4940000a6940000a8940000aa940000
+    m_ExpandedIDs: 000000006096000062960000649600006696000068960000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +444,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e09e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -469,7 +469,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 549}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 71
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -546,10 +546,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 548}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: a0e3feff2cfbffff84670000cc710000
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: 5631feff
+      m_LastClickedID: -118442
+      m_ExpandedIDs: 2cfbffff8a670000e86d0000e07100003e7800005a84000078840000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -832,9 +832,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 79.739334, y: 0.117176056, z: 131.12975}
+    m_Target: {x: 39.73938, y: 2.2940204, z: 33.443493}
     speed: 2
-    m_Value: {x: 79.739334, y: 0.117176056, z: 131.12975}
+    m_Value: {x: 39.73938, y: 2.2940204, z: 33.443493}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -881,20 +881,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14952086, y: -0.17988932, z: 0.025583858, w: -0.97222847}
+    m_Target: {x: -0.0016143012, y: -0.9993638, z: 0.026306335, w: 0.03595524}
     speed: 2
-    m_Value: {x: -0.15057108, y: -0.19289814, z: 0.027881442, w: -0.9691962}
+    m_Value: {x: -0.001574277, y: -0.99895144, z: 0.026299322, w: 0.037440855}
   m_Size:
-    m_Target: 109.311104
+    m_Target: 5.0205507
     speed: 2
-    m_Value: 114.46189
+    m_Value: 4.8043547
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.2603698
-    m_SpeedNormalized: 0.6299999
+    m_Speed: 1.1404299
+    m_SpeedNormalized: 0.56999993
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
