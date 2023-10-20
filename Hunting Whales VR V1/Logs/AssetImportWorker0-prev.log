@@ -15,7 +15,7 @@ C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52342
+53298
 Successfully changed project path to: C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
 C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27840] Host "[IP] 10.51.60.93 [Port] 0 [Flags] 2 [Guid] 2216057165 [EditorId] 2216057165 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34516] Host "[IP] 10.51.60.93 [Port] 0 [Flags] 2 [Guid] 4145892463 [EditorId] 4145892463 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27840] Host "[IP] 10.51.60.93 [Port] 0 [Flags] 2 [Guid] 2216057165 [EditorId] 2216057165 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34516] Host "[IP] 10.51.60.93 [Port] 0 [Flags] 2 [Guid] 4145892463 [EditorId] 4145892463 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 108.42 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
+Refreshing native plugins compatible for Editor in 144.63 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1/Assets
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006415 seconds.
+Registered in 0.006213 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.93 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 109.86 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.553 seconds
+- Completed reload, in  0.649 seconds
 Domain Reload Profiling:
-	ReloadAssembly (553ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (110ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008819 seconds.
+Registered in 0.010312 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.89 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 109.51 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -132,29 +132,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.151 seconds
+- Completed reload, in  1.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (517ms)
+			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -162,13 +162,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.89 ms.
 Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (58.0 KB). Loaded Objects now: 4894.
-Memory consumption went from 165.0 MB to 165.0 MB.
-Total: 3.426700 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.109900 ms MarkObjects: 2.910100 ms  DeleteObjects: 0.079400 ms)
+Unloading 50 unused Assets / (58.8 KB). Loaded Objects now: 4894.
+Memory consumption went from 165.2 MB to 165.1 MB.
+Total: 3.575100 ms (FindLiveObjects: 0.336300 ms CreateObjectMapping: 0.127900 ms MarkObjects: 3.003100 ms  DeleteObjects: 0.105900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,27 +183,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10934427.734997 seconds.
-  path: Assets/Hand Animator.controller
-  artifactKey: Guid(0a3bab44ad6d0fa459f06a85e9fa8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Animator.controller using Guid(0a3bab44ad6d0fa459f06a85e9fa8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae3724dcb048d2fbd6d54e96d50d64d') in 0.049584 seconds 
+  Time since last request: 10939575.291034 seconds.
+  path: Assets/Index.mask
+  artifactKey: Guid(0408a0032abfe39419f9e72bee37191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Index.mask using Guid(0408a0032abfe39419f9e72bee37191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2268b3f19fcea6fb70f10f0caab9861') in 0.036229 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 270.146634 seconds.
-  path: Assets/VR Input.inputactions
-  artifactKey: Guid(b52892d33f40fc94c867c114e82cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Input.inputactions using Guid(b52892d33f40fc94c867c114e82cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54de51c3247c2e786440abd36e0fc9a') in 0.013396 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/BaseHand.fbx
+  artifactKey: Guid(53f22628a28b63240a80bd567c7398c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseHand.fbx using Guid(53f22628a28b63240a80bd567c7398c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280a0e6499af51da42ed7d10e5ab4e7a') in 0.136053 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009161 seconds.
+Registered in 0.009601 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
@@ -220,40 +220,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
+- Completed reload, in  1.017 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1021ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (373ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.83 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 5.40 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4899.
-Memory consumption went from 163.8 MB to 163.8 MB.
-Total: 4.055700 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.109100 ms MarkObjects: 3.566000 ms  DeleteObjects: 0.038100 ms)
+Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4942.
+Memory consumption went from 168.7 MB to 168.6 MB.
+Total: 8.616000 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.097600 ms MarkObjects: 8.201600 ms  DeleteObjects: 0.033100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -268,61 +268,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.392589 seconds.
-  path: Assets/VR Input.inputactions
-  artifactKey: Guid(b52892d33f40fc94c867c114e82cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Input.inputactions using Guid(b52892d33f40fc94c867c114e82cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba286edd7e69c3400f98804c9a8138d') in 0.020392 seconds 
+  Time since last request: 163.727262 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.019975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.550797 seconds.
-  path: Assets/VR Input.inputactions
-  artifactKey: Guid(b52892d33f40fc94c867c114e82cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR Input.inputactions using Guid(b52892d33f40fc94c867c114e82cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0683a1ff0850101bedada5647f6eaf1d') in 0.003286 seconds 
+  Time since last request: 13.159033 seconds.
+  path: Assets/FutureHand.blend
+  artifactKey: Guid(b93adcad0c06abe439b9d09aa92c87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureHand.blend using Guid(b93adcad0c06abe439b9d09aa92c87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511bb7231434c343c4f06cdac24a00f') in 0.104322 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 120.216870 seconds.
-  path: Assets/New Avatar Mask.mask
-  artifactKey: Guid(0408a0032abfe39419f9e72bee37191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Avatar Mask.mask using Guid(0408a0032abfe39419f9e72bee37191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5999757fc646989fb90c7756e4dc17c5') in 0.012401 seconds 
+  Time since last request: 36.229550 seconds.
+  path: Assets/FutureHand.blend
+  artifactKey: Guid(b93adcad0c06abe439b9d09aa92c87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureHand.blend using Guid(b93adcad0c06abe439b9d09aa92c87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a8e2bad4cbbe6fe7e13a3ed913b5aa') in 0.033650 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.656841 seconds.
-  path: Assets/Index.mask
-  artifactKey: Guid(0408a0032abfe39419f9e72bee37191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Index.mask using Guid(0408a0032abfe39419f9e72bee37191e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df6720325a40a240dde2ad0226c979f') in 0.008945 seconds 
+  Time since last request: 47.857774 seconds.
+  path: Assets/BaseHand 1.fbx
+  artifactKey: Guid(6310e5365cea3ff4d921b632b70a0fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseHand 1.fbx using Guid(6310e5365cea3ff4d921b632b70a0fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dadf3a7b0aa78091280863c6c0e397e') in 0.027166 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.724218 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Bld_Section_Corner_01.fbx
-  artifactKey: Guid(4bab9623700f26d42b1cff6f6aa0b74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Bld_Section_Corner_01.fbx using Guid(4bab9623700f26d42b1cff6f6aa0b74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4234408e6b1038e90c2a7162741eecc1') in 0.144861 seconds 
+  Time since last request: 81.491371 seconds.
+  path: Assets/BaseHand 1.fbx
+  artifactKey: Guid(9bd48e0f57cc49744ac4d059d718b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseHand 1.fbx using Guid(9bd48e0f57cc49744ac4d059d718b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a056602c397ccc0461b2ea5c1a4f24f6') in 0.029385 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_Hologram_Bottle_03.fbx
-  artifactKey: Guid(ad6a0c0b0b6cda747b9b203815586cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_Hologram_Bottle_03.fbx using Guid(ad6a0c0b0b6cda747b9b203815586cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b79db083e76eed1573f600eec9481c') in 0.036685 seconds 
+  Time since last request: 50.289243 seconds.
+  path: Assets/FutureHand.blend
+  artifactKey: Guid(b93adcad0c06abe439b9d09aa92c87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureHand.blend using Guid(b93adcad0c06abe439b9d09aa92c87ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a51c3aef0460353557c21ce35a6d702') in 0.027620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Env_Small_Rocks_02.fbx
-  artifactKey: Guid(f8461025f6a5cc6478ada2a2598ad5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Env_Small_Rocks_02.fbx using Guid(f8461025f6a5cc6478ada2a2598ad5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892fcad4adf88b968cdf3ae742000eb3') in 0.029636 seconds 
+  Time since last request: 76.721113 seconds.
+  path: Assets/FutureHand.fbx
+  artifactKey: Guid(2829e48110d9af643a7707d12d8ebd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureHand.fbx using Guid(2829e48110d9af643a7707d12d8ebd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754bd42b2b232f285837e0e3675cc85') in 0.027955 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_Barrier_Plastic_02.fbx
-  artifactKey: Guid(ef9137cfabbb7c24a9065ba826c40c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_Barrier_Plastic_02.fbx using Guid(ef9137cfabbb7c24a9065ba826c40c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175e43bd7fed0a53dbee1926cec63447') in 0.025056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_Barrier_03.fbx
-  artifactKey: Guid(0dce66e88c199824f9b128f32c9105ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_Barrier_03.fbx using Guid(0dce66e88c199824f9b128f32c9105ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aeb5b593fd0189808a1849446e7e2c7') in 0.029996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.515811 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_Rubbish_Bin_01.fbx
-  artifactKey: Guid(64f5732453ce6eb4eb66b25e84287a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_Rubbish_Bin_01.fbx using Guid(64f5732453ce6eb4eb66b25e84287a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80204539b030c831772f4439aba0d311') in 0.026140 seconds 
+  Time since last request: 54.438234 seconds.
+  path: Assets/Hand Animator.controller
+  artifactKey: Guid(0a3bab44ad6d0fa459f06a85e9fa8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Animator.controller using Guid(0a3bab44ad6d0fa459f06a85e9fa8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319bbede34f5cfc85029830f7de08a5d') in 0.015749 seconds 
