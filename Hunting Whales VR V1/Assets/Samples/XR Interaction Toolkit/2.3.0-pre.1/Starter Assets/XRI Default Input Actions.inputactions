@@ -222,6 +222,42 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "thumbTouch",
+                    "type": "Value",
+                    "id": "8290ee79-b035-4249-a955-74263b820b36",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IndexTouch",
+                    "type": "Value",
+                    "id": "d0a45997-78cf-411e-a2a5-f9b20ace3cb0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Value",
+                    "id": "f50bd04e-275a-42a3-b845-61546c6c76dd",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Grip",
+                    "type": "Value",
+                    "id": "15b91d2e-07a2-423b-9a5b-284c65b8d7e1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Rotation",
                     "type": "Value",
                     "id": "cb6b7130-2bac-4ef7-abe4-6991ae7d419d",
@@ -357,6 +393,61 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65190138-f250-4aa2-8197-379c5298395a",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75661fd7-82be-4bb2-a8b2-37c3440bc2c9",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94ac789d-18e9-43f7-9393-9c626dc1ce92",
+                    "path": "<XRController>{LeftHand}/triggerTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IndexTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b69bb5af-e855-4f76-bd19-ad038ef0c85d",
+                    "path": "<XRController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "thumbTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37b87aff-45ae-4313-9a82-d9aa11666a61",
+                    "path": "<XRController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "thumbTouch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -712,6 +803,42 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "thumbTouch",
+                    "type": "Value",
+                    "id": "29324f5a-7a8b-46c8-9abe-28534018abb6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "IndexTouch",
+                    "type": "Value",
+                    "id": "dfe9ed59-46f0-46ea-8823-047056990d46",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Trigger",
+                    "type": "Value",
+                    "id": "848020c2-5b0a-48b5-a1fb-15f30f901752",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Grip",
+                    "type": "Value",
+                    "id": "3363156e-fd7a-4c63-9dca-e70f7a9efc00",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Rotation",
                     "type": "Value",
                     "id": "ee6bf5bf-bb0a-4a50-8327-cb654b19e298",
@@ -847,6 +974,61 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Tracking State",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34afd1d8-17e0-4920-bf56-31856fa630db",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "269ea388-ff72-49fe-b4b2-ded6c70d5494",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4400b9b4-82a7-4027-9afa-78dc802c948b",
+                    "path": "<XRController>{RightHand}/triggerTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IndexTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c912f05f-26b8-409f-a9d7-6330ca7b4541",
+                    "path": "<XRController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "thumbTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5dea4c0-9801-4404-a7d8-134526d63052",
+                    "path": "<XRController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "thumbTouch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
