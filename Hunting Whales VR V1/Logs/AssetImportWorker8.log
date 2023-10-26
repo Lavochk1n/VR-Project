@@ -9,27 +9,15 @@ C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 AssetImportWorker8
-========
-AssetImportWorker2
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 -projectPath
 C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
 -logFile
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 Logs/AssetImportWorker8.log
 -srvPort
 50097
 Successfully changed project path to: C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
 C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
-========
-Logs/AssetImportWorker2.log
--srvPort
-58543
-Successfully changed project path to: C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,21 +47,12 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 Player connection [22628] Host "[IP] 192.168.50.252 [Port] 0 [Flags] 2 [Guid] 489729792 [EditorId] 489729792 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [22628] Host "[IP] 192.168.50.252 [Port] 0 [Flags] 2 [Guid] 489729792 [EditorId] 489729792 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 100.80 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.49 ms.
-========
-Player connection [67716] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 305062847 [EditorId] 305062847 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [67716] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 305062847 [EditorId] 305062847 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 118.38 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.64 ms.
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1/Assets
@@ -85,7 +64,6 @@ Direct3D:
     VRAM:     8033 MB
     Driver:   31.0.15.3598
 Initialize mono
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
@@ -104,33 +82,11 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (541ms)
 		BeginReloadAssembly (56ms)
-========
-Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003440 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 315 ms
-Refreshing native plugins compatible for Editor in 95.55 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
-Domain Reload Profiling:
-	ReloadAssembly (923ms)
-		BeginReloadAssembly (66ms)
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 		EndReloadAssembly (389ms)
 			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -145,46 +101,20 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (111ms)
 				ProcessInitializeOnLoadMethodAttributes (33ms)
-========
-		EndReloadAssembly (763ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (96ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (599ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (385ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 Registered in 0.008553 seconds.
-========
-Registered in 0.011860 seconds.
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 87.74 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-========
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 99.57 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -202,22 +132,14 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 - Completed reload, in  1.030 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1031ms)
 		BeginReloadAssembly (86ms)
-========
-- Completed reload, in  1.159 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1160ms)
-		BeginReloadAssembly (99ms)
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 			CreateAndSetChildDomain (17ms)
 		EndReloadAssembly (852ms)
 			LoadAssemblies (67ms)
@@ -237,46 +159,16 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-========
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (513ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
 Refreshing native plugins compatible for Editor in 1.19 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (58.8 KB). Loaded Objects now: 4895.
 Memory consumption went from 165.2 MB to 165.2 MB.
 Total: 3.294100 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.149900 ms MarkObjects: 2.676100 ms  DeleteObjects: 0.082400 ms)
-========
-Refreshing native plugins compatible for Editor in 1.32 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (59.2 KB). Loaded Objects now: 4896.
-Memory consumption went from 163.9 MB to 163.8 MB.
-Total: 3.417600 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.899800 ms  DeleteObjects: 0.109400 ms)
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -291,7 +183,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<<< Updated upstream:Hunting Whales VR V1/Logs/AssetImportWorker8.log
   Time since last request: 6859.616055 seconds.
   path: Assets/SpawnRoom/Future/WallDoor/WallDoor_DefaultMaterial_BaseColor.png
   artifactKey: Guid(8da47019fda8640498dce13295a70198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -302,48 +193,6 @@ Received Import Request.
   path: Assets/SpawnRoom/Future/WallDoor/WallDoor_DefaultMaterial_Roughness.png
   artifactKey: Guid(29efb73c199130c4c996b32c135bf50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpawnRoom/Future/WallDoor/WallDoor_DefaultMaterial_Roughness.png using Guid(29efb73c199130c4c996b32c135bf50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a6ce88311b9bbacf42f5067bdd6b1c') in 0.013729 seconds 
-========
-  Time since last request: 1234845.898794 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_Fence_01_Convex.asset
-  artifactKey: Guid(8b52cbe339d10f946b45cede5bf1074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_Fence_01_Convex.asset using Guid(8b52cbe339d10f946b45cede5bf1074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bca236f1554fcc510970fc8ddfbd693') in 0.131133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/LowPolyPack/FreeLowPolyPack/Prefabs/Fence Type2 03.prefab
-  artifactKey: Guid(ab5e0beb1c36778479983f28b65d97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyPack/FreeLowPolyPack/Prefabs/Fence Type2 03.prefab using Guid(ab5e0beb1c36778479983f28b65d97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ebc7439f9cf1ee1d5dc175f8a0514') in 0.053373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonCity/Models/SM_Env_Fence_01.fbx
-  artifactKey: Guid(b37a3cb77b4f69b4abb4ba8ba494180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/SM_Env_Fence_01.fbx using Guid(b37a3cb77b4f69b4abb4ba8ba494180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6043abfe0ce009ca0c289dc4f22c74') in 0.027009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonCity/Models/Collisions/SM_Env_Fence_End_01_Convex 1.asset
-  artifactKey: Guid(48a45c6fc26afb044aa8c203da5ca6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/Collisions/SM_Env_Fence_End_01_Convex 1.asset using Guid(48a45c6fc26afb044aa8c203da5ca6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9382a0c988f1fc03be936bfd5e96d45b') in 0.028767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Characters/Character_Junky_Female_01.prefab
-  artifactKey: Guid(9335937f22aa2ad40a7b14777c48f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Characters/Character_Junky_Female_01.prefab using Guid(9335937f22aa2ad40a7b14777c48f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94eb0ef7c742d75f23727acc8aea95') in 0.319734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonCity/Models/SM_Env_Fence_End_01.fbx
-  artifactKey: Guid(a29081923b79b0943a8cb435acdcb4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/SM_Env_Fence_End_01.fbx using Guid(a29081923b79b0943a8cb435acdcb4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076dbcab475793d07c6c0a9137c57c40') in 0.018558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Characters/Character_Rich_Female_01.prefab
-  artifactKey: Guid(b3479484e41603e448c1ea6db3d429fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Characters/Character_Rich_Female_01.prefab using Guid(b3479484e41603e448c1ea6db3d429fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dba66617f2d613b1031b5ae37ede0a1') in 0.187308 seconds 
->>>>>>>> Stashed changes:Hunting Whales VR V1/Logs/AssetImportWorker2.log
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

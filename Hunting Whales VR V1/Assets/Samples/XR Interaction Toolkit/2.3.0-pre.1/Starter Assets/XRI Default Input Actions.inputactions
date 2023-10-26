@@ -283,42 +283,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Grip",
-                    "type": "Value",
-                    "id": "bb28ec2c-d60c-4f46-9e3a-f5432033a86f",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Trigger",
-                    "type": "Value",
-                    "id": "aa9863e5-2f57-45c6-ba12-9b900cb97e96",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "IndexTouch",
-                    "type": "Value",
-                    "id": "658d5e81-b038-4a48-8b71-cab9f9688f5f",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "thumbTouch",
-                    "type": "Value",
-                    "id": "fee0f2cc-e919-41ee-a33e-6b43572afbbe",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -434,11 +398,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "65190138-f250-4aa2-8197-379c5298395a",
-=======
-                    "id": "2490265a-f851-4b1c-bd0b-de5b3669ee37",
->>>>>>> Stashed changes
                     "path": "<XRController>{LeftHand}/grip",
                     "interactions": "",
                     "processors": "",
@@ -449,11 +409,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "75661fd7-82be-4bb2-a8b2-37c3440bc2c9",
-=======
-                    "id": "4e44c8a9-972e-4449-ac05-1d5817d8073a",
->>>>>>> Stashed changes
                     "path": "<XRController>{LeftHand}/trigger",
                     "interactions": "",
                     "processors": "",
@@ -464,11 +420,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "94ac789d-18e9-43f7-9393-9c626dc1ce92",
-=======
-                    "id": "a4c9677a-b7cc-4b0e-b20d-91248a2fbdbd",
->>>>>>> Stashed changes
                     "path": "<XRController>{LeftHand}/triggerTouched",
                     "interactions": "",
                     "processors": "",
@@ -479,11 +431,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "b69bb5af-e855-4f76-bd19-ad038ef0c85d",
-=======
-                    "id": "d1712a7f-13c2-4e3a-84ed-ccb3e41b5992",
->>>>>>> Stashed changes
                     "path": "<XRController>{LeftHand}/primaryTouched",
                     "interactions": "",
                     "processors": "",
@@ -494,11 +442,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "37b87aff-45ae-4313-9a82-d9aa11666a61",
-=======
-                    "id": "ac21f88f-7a8c-4e0b-afa5-319f635ecab1",
->>>>>>> Stashed changes
                     "path": "<XRController>{LeftHand}/secondaryTouched",
                     "interactions": "",
                     "processors": "",
@@ -920,42 +864,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Grip",
-                    "type": "Value",
-                    "id": "8140c36f-0c63-4361-94d3-aa1deaaa3ef9",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "Trigger",
-                    "type": "Value",
-                    "id": "e5da3ce5-e77d-4d20-985d-99435ad0733d",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "IndexTouch",
-                    "type": "Value",
-                    "id": "ac9438a8-f693-4076-bba5-8698b5a3ab99",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
-                    "name": "thumbTouch",
-                    "type": "Value",
-                    "id": "bb0c5d0b-150d-4011-9ba8-673d9c92667b",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1071,11 +979,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "34afd1d8-17e0-4920-bf56-31856fa630db",
-=======
-                    "id": "ab6441a5-82e0-4c3f-b40b-e78172e09651",
->>>>>>> Stashed changes
                     "path": "<XRController>{RightHand}/grip",
                     "interactions": "",
                     "processors": "",
@@ -1086,11 +990,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "269ea388-ff72-49fe-b4b2-ded6c70d5494",
-=======
-                    "id": "a80caf45-8d3f-4078-a378-4df62b6f9d65",
->>>>>>> Stashed changes
                     "path": "<XRController>{RightHand}/trigger",
                     "interactions": "",
                     "processors": "",
@@ -1101,11 +1001,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "4400b9b4-82a7-4027-9afa-78dc802c948b",
-=======
-                    "id": "5cbd53a5-93ad-4f3f-8f2b-cf9db857d8ea",
->>>>>>> Stashed changes
                     "path": "<XRController>{RightHand}/triggerTouched",
                     "interactions": "",
                     "processors": "",
@@ -1116,11 +1012,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "c912f05f-26b8-409f-a9d7-6330ca7b4541",
-=======
-                    "id": "6835640a-b78d-4547-9d29-2056432a1255",
->>>>>>> Stashed changes
                     "path": "<XRController>{RightHand}/primaryTouched",
                     "interactions": "",
                     "processors": "",
@@ -1131,11 +1023,7 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
                     "id": "d5dea4c0-9801-4404-a7d8-134526d63052",
-=======
-                    "id": "c8f0b3f2-690f-4491-ba4e-653a26996298",
->>>>>>> Stashed changes
                     "path": "<XRController>{RightHand}/secondaryTouched",
                     "interactions": "",
                     "processors": "",
