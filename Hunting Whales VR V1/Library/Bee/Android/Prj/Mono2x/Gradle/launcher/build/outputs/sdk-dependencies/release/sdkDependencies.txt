@@ -2,13 +2,24 @@
 # For more information visit: https://d.android.com/r/tools/dependency-metadata
 
 library {
+  maven_library {
+    artifactId: "OVRPlugin"
+  }
+  digests {
+    sha256: "\372J\234\3015\225q\322\375J\242=c+-\373\2215\272\352\023\302d\362K\224\372z\322M\321N"
+  }
+}
+library {
   digests {
     sha256: "\346\342ypX\365\242\332\201\202y/\336\333\3667\230z!\266\326\334\275\036\343\3571UEh\302j"
   }
 }
 library_dependencies {
 }
+library_dependencies {
+  library_index: 1
+}
 module_dependencies {
   module_name: "base"
-  dependency_index: 0
+  dependency_index: 1
 }
