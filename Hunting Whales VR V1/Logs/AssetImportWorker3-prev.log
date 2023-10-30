@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 14188 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16085 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
+C:/Users/Gebruiker/Documents/GitHub/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55540
-Successfully changed project path to: C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
-C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
+51399
+Successfully changed project path to: C:/Users/Gebruiker/Documents/GitHub/VR-Project/Hunting Whales VR V1
+C:/Users/Gebruiker/Documents/GitHub/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,78 +47,78 @@ C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18052] Host "[IP] 192.168.50.252 [Port] 0 [Flags] 2 [Guid] 4176849817 [EditorId] 4176849817 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16696] Host "[IP] 192.168.1.133 [Port] 0 [Flags] 2 [Guid] 4084248212 [EditorId] 4084248212 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-APMTCBN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18052] Host "[IP] 192.168.50.252 [Port] 0 [Flags] 2 [Guid] 4176849817 [EditorId] 4176849817 [Version] 1048832 [Id] WindowsEditor(7,Legion-D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16696] Host "[IP] 192.168.1.133 [Port] 0 [Flags] 2 [Guid] 4084248212 [EditorId] 4084248212 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-APMTCBN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 101.64 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
+Refreshing native plugins compatible for Editor in 128.77 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.09 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/daang/Documents/CMGT/Year 2/Block 1/VR-Project/Hunting Whales VR V1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Gebruiker/Documents/GitHub/VR-Project/Hunting Whales VR V1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   NVIDIA
-    VRAM:     8033 MB
-    Driver:   31.0.15.3598
+    VRAM:     3978 MB
+    Driver:   31.0.15.2824
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005632 seconds.
+Registered in 0.011808 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 97.78 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 104.53 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.556 seconds
+- Completed reload, in  0.718 seconds
 Domain Reload Profiling:
-	ReloadAssembly (556ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (719ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (406ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (469ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (80ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (262ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009200 seconds.
+Registered in 0.008697 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gebruiker\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Gebruiker\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.68 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 106.06 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\daang\Documents\CMGT\Year 2\Block 1\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Gebruiker\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Gebruiker\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
    --- End of inner exception stack trace ---
@@ -132,52 +132,121 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  1.336 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (1337ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (585ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (58.8 KB). Loaded Objects now: 4895.
-Memory consumption went from 166.0 MB to 165.9 MB.
-Total: 3.375800 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.173100 ms MarkObjects: 2.776900 ms  DeleteObjects: 0.099000 ms)
+Unloading 50 unused Assets / (59.0 KB). Loaded Objects now: 4895.
+Memory consumption went from 164.6 MB to 164.5 MB.
+Total: 3.189800 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.573800 ms  DeleteObjects: 0.172500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2801.243005 seconds.
+  path: Assets/TreePuzzle/TreeSapling/branch__BaseColor.png
+  artifactKey: Guid(755c6572314af5f4e9fc841d97c45743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/branch__BaseColor.png using Guid(755c6572314af5f4e9fc841d97c45743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabd5b84de928cf2171001d5df32041b') in 0.119796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TreePuzzle/TreeSapling/dirt pile_Normal.png
+  artifactKey: Guid(a18085d61dc6a304f84c44fc06ee3d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/dirt pile_Normal.png using Guid(a18085d61dc6a304f84c44fc06ee3d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ad9a20c43ed550d06bb06f8e407d1e') in 0.022593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TreePuzzle/TreeSapling/dirt pile_BaseColor.png
+  artifactKey: Guid(deafcc675ee32204ca4e1e9a10cf45dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/dirt pile_BaseColor.png using Guid(deafcc675ee32204ca4e1e9a10cf45dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b5e3ef7001571d6c17b218b2069f6d') in 0.018093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TreePuzzle/TreeSapling/leaves_Normal.png
+  artifactKey: Guid(f188e88efc5442e47b373089f825790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/leaves_Normal.png using Guid(f188e88efc5442e47b373089f825790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394dc094aa5259f9d96531dbe0bede10') in 0.021084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TreePuzzle/TreeSapling/branch__Emission.png
+  artifactKey: Guid(ac54553b819d1284fb81143e16139324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/branch__Emission.png using Guid(ac54553b819d1284fb81143e16139324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2469b5b207a95db8d3e0728ccc3492') in 0.019576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TreePuzzle/TreeSapling/leaves_Metallic.png
+  artifactKey: Guid(86154b8e304d90144bae8c3f1f521749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/leaves_Metallic.png using Guid(86154b8e304d90144bae8c3f1f521749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0c54db5cee3f4e1463445c2d6b31cc') in 0.027155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TreePuzzle/TreeSapling/leaves_Emission.png
+  artifactKey: Guid(dd60f3cbe39f7d14591804dbf2b76f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/leaves_Emission.png using Guid(dd60f3cbe39f7d14591804dbf2b76f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89761f6033bbf5c08f05c7425cfd05dc') in 0.027307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TreePuzzle/TreeSapling/dirt pile_Roughness.png
+  artifactKey: Guid(a144c4f7eb307484090f0742940c96ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/dirt pile_Roughness.png using Guid(a144c4f7eb307484090f0742940c96ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6827bf8ea3da23375d2fb4eb780d783') in 0.019552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TreePuzzle/TreeSapling/leaves_Alpha.png
+  artifactKey: Guid(ca406de1380856a44a7236784a609738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/leaves_Alpha.png using Guid(ca406de1380856a44a7236784a609738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e8f2d22be057fc7358e346b828dcc7') in 0.023180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TreePuzzle/TreeSapling/branch__Normal.png
+  artifactKey: Guid(e9417f6bb626c4c4eb3020096e618ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/branch__Normal.png using Guid(e9417f6bb626c4c4eb3020096e618ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad604b20f5866bef4a9c5790e6d4b45') in 0.015725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TreePuzzle/TreeSapling/branch__Displacement.png
+  artifactKey: Guid(5934760a4c351e74cb375b0937c10255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/branch__Displacement.png using Guid(5934760a4c351e74cb375b0937c10255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94a6314e0fd31cfab134de97b757251') in 0.017388 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
