@@ -15,7 +15,7 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-49156
+53048
 Successfully changed project path to: C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
 C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1660] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 3798182488 [EditorId] 3798182488 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30956] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 3529305155 [EditorId] 3529305155 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1660] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 3798182488 [EditorId] 3798182488 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30956] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 3529305155 [EditorId] 3529305155 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 127.96 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 128.41 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1/Assets
@@ -67,55 +67,55 @@ Initialize mono
 Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003062 seconds.
+Registered in 0.003262 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 252 ms
-Refreshing native plugins compatible for Editor in 105.25 ms, found 12 plugins.
+Android Extension - Scanning For ADB Devices 240 ms
+Refreshing native plugins compatible for Editor in 95.85 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
+- Completed reload, in  0.808 seconds
 Domain Reload Profiling:
-	ReloadAssembly (821ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (682ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (536ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (508ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (319ms)
+				InitializePlatformSupportModulesInManaged (305ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012032 seconds.
+Registered in 0.011693 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.35 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 96.20 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -133,28 +133,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
+- Completed reload, in  1.056 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1053ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (876ms)
+		EndReloadAssembly (879ms)
 			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (482ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (479ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (96ms)
 				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadAttributes (238ms)
 				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -164,12 +164,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.23 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4424 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (59.0 KB). Loaded Objects now: 4897.
-Memory consumption went from 164.7 MB to 164.7 MB.
-Total: 3.350900 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.187100 ms MarkObjects: 2.763900 ms  DeleteObjects: 0.088600 ms)
+Memory consumption went from 164.6 MB to 164.5 MB.
+Total: 3.542700 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.297000 ms MarkObjects: 2.810900 ms  DeleteObjects: 0.092300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,106 +183,76 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 299536.879659 seconds.
-  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/supermarket.fbx
-  artifactKey: Guid(9ddd911d20bee4b26a76412be1d3f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/supermarket.fbx using Guid(9ddd911d20bee4b26a76412be1d3f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23c6412adf23f48f21938f5f2cd263c') in 0.154088 seconds 
+  Time since last request: 311937.877594 seconds.
+  path: Assets/TreePuzzle/TreeSapling/BranchMaterial/sapling unwrapped_branch__AlbedoTransparency.png
+  artifactKey: Guid(dd06bac3673427c4890cc6269c13b40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/BranchMaterial/sapling unwrapped_branch__AlbedoTransparency.png using Guid(dd06bac3673427c4890cc6269c13b40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395522606e431a7aff341a229932ca30') in 0.072313 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1254.013769 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_03_Convex.asset
-  artifactKey: Guid(f4819c73b03b5ba4490979389efe1f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_03_Convex.asset using Guid(f4819c73b03b5ba4490979389efe1f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e1e7c245f9648475436a322149ee34') in 0.015295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonCity/Models/Collisions/SM_Prop_Trashbin_01_Convex.asset
-  artifactKey: Guid(6fbd47cf8e399734581354496444362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/Collisions/SM_Prop_Trashbin_01_Convex.asset using Guid(6fbd47cf8e399734581354496444362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef68415452d78a81b77294f451cc376') in 0.011123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonCity/Models/Collisions/SM_Prop_Trashbin_02_Convex.asset
-  artifactKey: Guid(3a3e1f3a9a196b7408fba26c7e128942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/Collisions/SM_Prop_Trashbin_02_Convex.asset using Guid(3a3e1f3a9a196b7408fba26c7e128942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88308ec8e0720a1e37b244096b077656') in 0.012846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/PolygonCity/Prefabs/Props/SM_Prop_Trashbin_02.prefab
-  artifactKey: Guid(e1cc26c508a6ec34e95a50f62aa7b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Props/SM_Prop_Trashbin_02.prefab using Guid(e1cc26c508a6ec34e95a50f62aa7b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd120f9d55c4344ae4b77d30468db83ac') in 0.039991 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_Corner_01_Convex.asset
+  artifactKey: Guid(065b4896ee7d7864381bc89f1209266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_Corner_01_Convex.asset using Guid(065b4896ee7d7864381bc89f1209266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d8bae0345dc730c09ea5156a4ce7a2') in 0.068773 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashCan_Lid_01.prefab
-  artifactKey: Guid(34805116d018a9f4899f8ec1bb2948b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashCan_Lid_01.prefab using Guid(34805116d018a9f4899f8ec1bb2948b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2660d62a93eae3f0c7847e20a570381') in 0.019816 seconds 
+  path: Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_02_Convex.asset
+  artifactKey: Guid(b7023bc803db03b48aab9e69180ce36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_02_Convex.asset using Guid(b7023bc803db03b48aab9e69180ce36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b19d29c753f544612a3c713130bddc4') in 0.017695 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonCity/Models/SM_Prop_TrashCan_01.fbx
-  artifactKey: Guid(368214160a364a141a3101d85f12c8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/SM_Prop_TrashCan_01.fbx using Guid(368214160a364a141a3101d85f12c8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0e89c2d1dac5f9fc49403653cf9a59') in 0.017443 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_03_Convex 2.asset
+  artifactKey: Guid(fabea28af68b5d4428358e8e0d2ccd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_03_Convex 2.asset using Guid(fabea28af68b5d4428358e8e0d2ccd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4716160965e31f7de4b912670bc512b7') in 0.015328 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashCan_01.prefab
-  artifactKey: Guid(f738f6acdbb1d5844bd657732cb05e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashCan_01.prefab using Guid(f738f6acdbb1d5844bd657732cb05e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32d6f5b0a229d0fd595f30f8edbb1c6') in 0.020936 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/TreePuzzle/TreeSapling/DirtPileMaterial/sapling unwrapped_dirt pile_AlbedoTransparency.png
+  artifactKey: Guid(58af29c7937e23545adfce51f0686533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSapling/DirtPileMaterial/sapling unwrapped_dirt pile_AlbedoTransparency.png using Guid(58af29c7937e23545adfce51f0686533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfca31e0d08f3d5e8b0ab67cc2926f9') in 0.015229 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_TrashCan_01.prefab
-  artifactKey: Guid(49403e0fe06c5a94caf8def848fd9941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_TrashCan_01.prefab using Guid(49403e0fe06c5a94caf8def848fd9941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a27eb87632558515db014749c1c7eea') in 0.040872 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_Corner_02_Convex.asset
+  artifactKey: Guid(24ebe41c46f3ec0458189b6d9fbd8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_Corner_02_Convex.asset using Guid(24ebe41c46f3ec0458189b6d9fbd8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bab68e204856318d7eda37dfa520a64') in 0.013873 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.894004 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_02.fbx
-  artifactKey: Guid(5b9ca8ddb34880345ba90d33369ecbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_02.fbx using Guid(5b9ca8ddb34880345ba90d33369ecbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b268db9b8eb71d305adc4dbc4c6a94dc') in 0.015349 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/TreePuzzle/TreeSeedPackage_1/SeedPackageMaterial/seed package 2_package_AlbedoTransparency.png
+  artifactKey: Guid(864577f74cb90104c85d5c76b23ec5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSeedPackage_1/SeedPackageMaterial/seed package 2_package_AlbedoTransparency.png using Guid(864577f74cb90104c85d5c76b23ec5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ff2e928d20702732b048d258c243d8') in 0.025043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_02_Convex.asset
-  artifactKey: Guid(3c49aa8bfa49ec147b5809428a836dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_02_Convex.asset using Guid(3c49aa8bfa49ec147b5809428a836dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4c49ff114c5057a643e657ec442ed3') in 0.014346 seconds 
+  Time since last request: 0.338555 seconds.
+  path: Assets/PolygonSciFiCity/Prefabs/Environments/SM_Env_Road_ParkingLines_01_SF.prefab
+  artifactKey: Guid(4a24342db50a37147a6ac297e2a0438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Prefabs/Environments/SM_Env_Road_ParkingLines_01_SF.prefab using Guid(4a24342db50a37147a6ac297e2a0438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeb85bfa8a50b9b2d996d140435c449') in 0.037430 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashBag_03.prefab
-  artifactKey: Guid(5b20f7f96ea80dc4cbd7199fbb4d4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashBag_03.prefab using Guid(5b20f7f96ea80dc4cbd7199fbb4d4d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2406d65b65e16608a7fc8b62682c1de5') in 0.016350 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonCity/Models/Collisions/SM_Prop_ParkingMeter_02_Convex.asset
+  artifactKey: Guid(7865a0e08f9e1b840856844a08ddee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/Collisions/SM_Prop_ParkingMeter_02_Convex.asset using Guid(7865a0e08f9e1b840856844a08ddee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff196635bc0cc64adbe36a645de9e9') in 0.013430 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonCity/Models/SM_Prop_TrashBag_03.fbx
-  artifactKey: Guid(29d37754f17cfed4c9b307c246461f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Models/SM_Prop_TrashBag_03.fbx using Guid(29d37754f17cfed4c9b307c246461f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd58f226bc1db7125acd187431d094ef') in 0.016146 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonCity/Models/SM_Prop_ParkingMeter_02.fbx
+  artifactKey: Guid(99c3dab35e27907458574549ef734d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Prop_ParkingMeter_02.fbx using Guid(99c3dab35e27907458574549ef734d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc2bec3f6a97734ae14e3133dd8e4cf') in 0.026847 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_03.fbx
-  artifactKey: Guid(f781672a3f76dee458bc4332cc23d805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_03.fbx using Guid(f781672a3f76dee458bc4332cc23d805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f355f54f657a4c8c815894178f91393c') in 0.015424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_01_Convex.asset
-  artifactKey: Guid(b6248ca0a1fd5d447aaa5c94cabcd8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Models/SM_Prop_TrashBag_01_Convex.asset using Guid(b6248ca0a1fd5d447aaa5c94cabcd8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe900b119dc8f7797307912853e0f81d') in 0.015522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_TrashBag_01.prefab
-  artifactKey: Guid(6327f3b529212ab4692c4ce3714ab082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_TrashBag_01.prefab using Guid(6327f3b529212ab4692c4ce3714ab082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c39f72b7e4a1af8b29f6819f70749f') in 0.037713 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonCity/Models/SM_Prop_ParkBench_01.fbx
+  artifactKey: Guid(6080e80bbc45a324b832aec3f4cef3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Prop_ParkBench_01.fbx using Guid(6080e80bbc45a324b832aec3f4cef3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0344c85f1dd6bdb9e7fc76830fc07b8') in 0.018694 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashBag_01.prefab
-  artifactKey: Guid(5e9f23a0d535d65438771a89191d0f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonCity/Prefabs/Props/SM_Prop_TrashBag_01.prefab using Guid(5e9f23a0d535d65438771a89191d0f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caaa36325c8475955d83c1271be6fc4') in 0.015965 seconds 
+  path: Assets/PolygonCity/Models/SM_Prop_ParkingMeter_01.fbx
+  artifactKey: Guid(bc6d4e50475f85448a0345adc55750e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/SM_Prop_ParkingMeter_01.fbx using Guid(bc6d4e50475f85448a0345adc55750e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b39ee1d215990371a27e82accfd5007') in 0.017401 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
