@@ -50,12 +50,34 @@ public class TimeTravel : MonoBehaviour
                 }
             }
         }
+        if (presentIsVisible == true) ;
+        {
+            FindObjectOfType<AudioManager>().Play("PastCityBackground");
+            FindObjectOfType<AudioManager>().StopPlaying("FutureCityBackground");
+        }
+
+        if (presentIsVisible == false) ;
+        {
+            FindObjectOfType<AudioManager>().Play("FutureCityBackground");
+            FindObjectOfType<AudioManager>().StopPlaying("PastCityBackground");
+        }
+
     }
 
     IEnumerator TransitionEffect()
     {
+        FindObjectOfType<AudioManager>().Play("TimeTravel");
         animator.SetTrigger("TimeTravel");
         yield return null;
+             if (presentIsVisible == true)
+             {
+                presentIsVisible = false;
+             }
+                 else
+                 {
+                     if (presentIsVisible == false)
+                        presentIsVisible = true;
+                 }
 
         SwitchActiveLayers(); // Complete the time travel effect
     }

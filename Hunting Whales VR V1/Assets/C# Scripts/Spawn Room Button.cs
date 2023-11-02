@@ -25,6 +25,7 @@ public class ButtonPuzzle : MonoBehaviour
             // The button has been pressed for the specified duration.
             // You can now open the locked door.
             OpenDoor();
+            FindObjectOfType<AudioManager>().Play("ButtonClick");
         }
     }
 
@@ -32,6 +33,7 @@ public class ButtonPuzzle : MonoBehaviour
     {
         lockedDoor.SetActive(false);
         openDoor.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("FutureDoorOpen");
     }
 
     public void OnButtonPress()
