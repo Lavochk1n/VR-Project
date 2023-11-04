@@ -39,7 +39,7 @@ public class TimeTravel : MonoBehaviour
         else
         {
             // Check for the "Y" button press on the left controller
-            if (leftController.inputDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue) && secondaryButtonValue)
+            if (Input.GetButtonDown("XRI_Left_TriggerButton"))
             {
                 if (Time.time >= timeToEffect)
                 {
@@ -50,13 +50,13 @@ public class TimeTravel : MonoBehaviour
                 }
             }
         }
-        if (presentIsVisible == true) ;
+        if (presentIsVisible == true) 
         {
             FindObjectOfType<AudioManager>().Play("PastCityBackground");
             FindObjectOfType<AudioManager>().StopPlaying("FutureCityBackground");
         }
 
-        if (presentIsVisible == false) ;
+        if (presentIsVisible == false) 
         {
             FindObjectOfType<AudioManager>().Play("FutureCityBackground");
             FindObjectOfType<AudioManager>().StopPlaying("PastCityBackground");
