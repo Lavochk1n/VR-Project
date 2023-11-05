@@ -54,10 +54,13 @@ public class TimeTravel : MonoBehaviour
 
         IEnumerator TransitionEffect()
         {
-            FindObjectOfType<AudioManager>().Play("TimeTravel");
             animator.SetTrigger("TimeTravel");
-            yield return null;
+            yield return new WaitForSeconds(1f);
+
             SwitchActiveLayers(); // Complete the time travel effect
+
+            animator.SetTrigger("TimeTravel");
+
         }
 
 
