@@ -8,6 +8,7 @@ public class LabPuzzle : MonoBehaviour {
     public float snapDistance = 0.1f; // Adjust this value to control the snapping distance
 
     private bool isSnapped = false;
+    public bool IsSnapped => isSnapped; // Add a public property to check if the object is snapped
 
     void Update() {
         if (!isSnapped) {
