@@ -19,10 +19,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        Play("FootSteps");
-    }
+  
 
     public void Play(string name)
     {

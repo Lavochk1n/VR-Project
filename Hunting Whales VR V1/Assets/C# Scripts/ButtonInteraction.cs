@@ -24,9 +24,13 @@ public class ButtonInteraction : MonoBehaviour
         {
             // Delete the current door prefab (locked door) in the future
             Destroy(GameObject.FindGameObjectWithTag("Door"));
+            
+            FindObjectOfType<AudioManager>().Play("ButtonClick");
 
             // Spawn the open door prefab in the future
             Instantiate(openDoorPrefab, transform.position, transform.rotation);
+            
+            FindObjectOfType<AudioManager>().Play("FutureDoorOpen");
 
             isDoorOpen = true;
         }
