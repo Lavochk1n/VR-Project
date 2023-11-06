@@ -7,11 +7,12 @@ TagManager:
   - FutureCity
   - PastCity
   - Lab
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Door
   - Water
   - UI
   - 

@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32620 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 7544 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity Editor\2021.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
+C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60517
-Successfully changed project path to: C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
+53777
+Successfully changed project path to: C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1
+C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,79 +47,82 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34488] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 192065255 [EditorId] 192065255 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7276] Host "[IP] 192.168.11.41 [Port] 0 [Flags] 2 [Guid] 1171546093 [EditorId] 1171546093 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8LQSREQM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34488] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 192065255 [EditorId] 192065255 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7276] Host "[IP] 192.168.11.41 [Port] 0 [Flags] 2 [Guid] 1171546093 [EditorId] 1171546093 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8LQSREQM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 108.40 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
+Refreshing native plugins compatible for Editor in 240.26 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.04 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
-[Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x24dc)
-    Vendor:   NVIDIA
-    VRAM:     16191 MB
-    Driver:   31.0.15.4601
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     3772 MB
+    Driver:   30.0.13040.5001
 Initialize mono
-Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002927 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017798 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 261 ms
-Refreshing native plugins compatible for Editor in 102.46 ms, found 12 plugins.
+Android Extension - Scanning For ADB Devices 433 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 234.99 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
+- Completed reload, in  1.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1052ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (1877ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (915ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (1434ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (540ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1085ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (328ms)
+				InitializePlatformSupportModulesInManaged (581ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (235ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011316 seconds.
+Registered in 0.015993 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 97.50 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 161.04 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
    --- End of inner exception stack trace ---
@@ -133,49 +136,130 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
+- Completed reload, in  2.421 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1307ms)
-		BeginReloadAssembly (290ms)
+	ReloadAssembly (2422ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (920ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2035ms)
+			LoadAssemblies (397ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (475ms)
+			SetupTypeCache (572ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (922ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Unloading 4446 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (59.7 KB). Loaded Objects now: 4923.
-Memory consumption went from 167.7 MB to 167.6 MB.
-Total: 3.442700 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.761000 ms  DeleteObjects: 0.107700 ms)
+Unloading 50 unused Assets / (59.3 KB). Loaded Objects now: 4923.
+Memory consumption went from 169.0 MB to 168.9 MB.
+Total: 12.107800 ms (FindLiveObjects: 0.646100 ms CreateObjectMapping: 0.336000 ms MarkObjects: 9.387800 ms  DeleteObjects: 1.736600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 162064.338630 seconds.
+  path: Assets/Military Checkpoint sign.fbx
+  artifactKey: Guid(2c0ad1dcf6862db4d8088a6cee98baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military Checkpoint sign.fbx using Guid(2c0ad1dcf6862db4d8088a6cee98baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1c07978c042f6f9e0d5ba82dfee679') in 0.338665 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010997 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.08 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2581ms)
+		BeginReloadAssembly (985ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (72ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (475ms)
+		EndReloadAssembly (1456ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 29.14 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 4406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4971.
+Memory consumption went from 171.0 MB to 171.0 MB.
+Total: 8.657200 ms (FindLiveObjects: 1.186600 ms CreateObjectMapping: 0.180000 ms MarkObjects: 6.964800 ms  DeleteObjects: 0.278600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,17 +268,18 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010477 seconds.
+Registered in 0.010462 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
    --- End of inner exception stack trace ---
@@ -208,198 +293,49 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
+- Completed reload, in  1.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1163ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (235ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (955ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (170ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (524ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (518ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (396ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.12 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 18.59 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Unloading 4406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4927.
-Memory consumption went from 165.4 MB to 165.3 MB.
-Total: 3.048900 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.214100 ms MarkObjects: 2.522400 ms  DeleteObjects: 0.023900 ms)
+Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4975.
+Memory consumption went from 171.0 MB to 171.0 MB.
+Total: 5.587300 ms (FindLiveObjects: 0.674800 ms CreateObjectMapping: 0.278800 ms MarkObjects: 4.469900 ms  DeleteObjects: 0.161400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 141837.663170 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_AirConditioningGrid_01.prefab
-  artifactKey: Guid(7b5c2f4e59886dc448873ceb3e338f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_AirConditioningGrid_01.prefab using Guid(7b5c2f4e59886dc448873ceb3e338f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b643df3b984cd2a58e5dd457f330e02') in 0.429018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_BarChair_01.prefab
-  artifactKey: Guid(54903e98cb7da0047ab01d65018f1d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_BarChair_01.prefab using Guid(54903e98cb7da0047ab01d65018f1d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af2823348f05b4e59502fd37efae653') in 0.175861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_line_01.prefab
-  artifactKey: Guid(800458afd8edd8347948cf025aeebfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_line_01.prefab using Guid(800458afd8edd8347948cf025aeebfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c48b42ad3d48a4ed7d2fb83250de61') in 0.153475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Box_Supplies_01.prefab
-  artifactKey: Guid(8c52c17108ac4d14b93017d91e804006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Box_Supplies_01.prefab using Guid(8c52c17108ac4d14b93017d91e804006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16a0bf4780eeef46390e5688a41f8fc') in 0.150454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_Plastic_02.prefab
-  artifactKey: Guid(75e6fadbd499393488ef69a3ee7c3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_Plastic_02.prefab using Guid(75e6fadbd499393488ef69a3ee7c3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b8642cd0052a25ed32e7e62c4d3d0c') in 0.188131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Chain_01.prefab
-  artifactKey: Guid(f43787b8e783e9c42a8aebf2bc0b9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Chain_01.prefab using Guid(f43787b8e783e9c42a8aebf2bc0b9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4214ec45c3cb14b9bcce09c1e5171719') in 0.145770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bottle_03.prefab
-  artifactKey: Guid(36671c50e5b866247937253a255b19aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bottle_03.prefab using Guid(36671c50e5b866247937253a255b19aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e8ac84a2cfbc32576c60fd706fcf6e') in 0.143539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cog_01.prefab
-  artifactKey: Guid(db23fa03d8d74e349bbc089974917029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cog_01.prefab using Guid(db23fa03d8d74e349bbc089974917029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c91e9bf9cfde9ad01e152770ec30ab2') in 0.165886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_01.prefab
-  artifactKey: Guid(e5ea23645ddbb58408bd3bb44e10f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_01.prefab using Guid(e5ea23645ddbb58408bd3bb44e10f168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a542defe21f0dd9d47807600563bf031') in 0.156472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_Pole_01.prefab
-  artifactKey: Guid(3d60a71ddd12565498b1cb9e63e36f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_Pole_01.prefab using Guid(3d60a71ddd12565498b1cb9e63e36f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c4662bfe8bb446b95fde22e28aa71d') in 0.151791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_02.prefab
-  artifactKey: Guid(41bd131f003d8da439dd229aa2c850f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_02.prefab using Guid(41bd131f003d8da439dd229aa2c850f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af5dc17825f1d40f7f9d7926238cba8') in 0.146758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bottle_02.prefab
-  artifactKey: Guid(315f2acd02ded7a458e8ae77a8d7db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bottle_02.prefab using Guid(315f2acd02ded7a458e8ae77a8d7db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a795897e6027e0b954d8315a33c67f2d') in 0.145077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_Ceiling_01.prefab
-  artifactKey: Guid(6db3e35aba885c24fb0a276f02c7c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_Ceiling_01.prefab using Guid(6db3e35aba885c24fb0a276f02c7c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d4e4132935e9d6d34c848464f35233') in 0.141639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_Plastic_03.prefab
-  artifactKey: Guid(2760986f200606b41bf8cb5d5011ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_Plastic_03.prefab using Guid(2760986f200606b41bf8cb5d5011ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27826c089afb88a78d901b0500a3a0b1') in 0.165489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Atm_01.prefab
-  artifactKey: Guid(a56da3c44063ebe4e8fdac7b93bf1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Atm_01.prefab using Guid(a56da3c44063ebe4e8fdac7b93bf1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c94b48c2d748347f93e156895a8226f') in 0.142584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_01.prefab
-  artifactKey: Guid(c444ce6e54943f64a895431df8872a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Barrier_01.prefab using Guid(c444ce6e54943f64a895431df8872a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fa54871bb9a364eb459da8956ea7a2') in 0.160680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bank_Booth_01.prefab
-  artifactKey: Guid(9b66d47545314cf40a0a714354e0f870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bank_Booth_01.prefab using Guid(9b66d47545314cf40a0a714354e0f870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d23dc7b2cf2d527f087c4286a854023') in 0.157096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_03.prefab
-  artifactKey: Guid(8211dfbdf5b200e44a83c7b7db5d8a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cables_03.prefab using Guid(8211dfbdf5b200e44a83c7b7db5d8a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f9599e065707b86385d843c29c4bd6') in 0.140869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cog_02.prefab
-  artifactKey: Guid(0ce30e0f6a3b2b947abfcccbf06f2cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cog_02.prefab using Guid(0ce30e0f6a3b2b947abfcccbf06f2cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9592e90e705e94b9d41b289e1cedf722') in 0.158682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cable_Crossing_Machine_01.prefab
-  artifactKey: Guid(cbceef30a3e489d49b0d717018a71050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cable_Crossing_Machine_01.prefab using Guid(cbceef30a3e489d49b0d717018a71050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3682bd1c5168055d356176a377521178') in 0.186284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Chain_03.prefab
-  artifactKey: Guid(1a8cb45cb38c266468857baf7462dd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Chain_03.prefab using Guid(1a8cb45cb38c266468857baf7462dd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4a0c48bc9cae138fea3a18ad5a6ddf') in 0.152414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_AirConditioningUnit_01.prefab
-  artifactKey: Guid(481f055a844be084eae4eefebdd9a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_AirConditioningUnit_01.prefab using Guid(481f055a844be084eae4eefebdd9a49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57178fbbf7294505af3f9af1e46396da') in 0.142247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cable_Crossing_Pillar_01.prefab
-  artifactKey: Guid(264ccdf2cfd286448a19cf25c2f48687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Cable_Crossing_Pillar_01.prefab using Guid(264ccdf2cfd286448a19cf25c2f48687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b90249e9a4a8316e5a93f09a3e0fb55') in 0.152466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Carpet_Mat_01.prefab
-  artifactKey: Guid(8db0bcef339c006459e7b8e78fa23d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Carpet_Mat_01.prefab using Guid(8db0bcef339c006459e7b8e78fa23d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aac606674b79d4c1e4f2ad57a8fee2a') in 0.148745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bank_Booth_Pillar_01.prefab
-  artifactKey: Guid(a1ece4b2496c0e54b8e5d0eea4d5b040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonSciFiCity/Prefabs/Props/SM_Prop_Bank_Booth_Pillar_01.prefab using Guid(a1ece4b2496c0e54b8e5d0eea4d5b040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c0bf146657f6e67fe31a314fa929ca') in 0.158302 seconds 

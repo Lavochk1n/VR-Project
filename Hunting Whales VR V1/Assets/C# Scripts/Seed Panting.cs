@@ -7,7 +7,7 @@ public class SeedPickup : MonoBehaviour
     // You can use XR Interaction Toolkit or any other VR interaction system you prefer.
 }
 
-public class TimeTravel : MonoBehaviour
+public class SeedPlanting : MonoBehaviour
 {
     [SerializeField] GameObject present, past;
     [SerializeField] bool presentIsVisible = true;

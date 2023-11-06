@@ -319,10 +319,12 @@
 "Assets/C# Scripts/AudioManager.cs"
 "Assets/C# Scripts/AudioPlayer.cs"
 "Assets/C# Scripts/ButtonInteraction.cs"
+"Assets/C# Scripts/LabPuzzle.cs"
 "Assets/C# Scripts/PlaySound.cs"
 "Assets/C# Scripts/Seed Panting.cs"
 "Assets/C# Scripts/Sound.cs"
 "Assets/C# Scripts/TimeTravel.cs"
+"Assets/C# Scripts/VictoryCondition.cs"
 "Assets/VR Hands/HandController.cs"
 "Assets/VR Hands/XRPlatformControllerSetup.cs"
 -langversion:9.0

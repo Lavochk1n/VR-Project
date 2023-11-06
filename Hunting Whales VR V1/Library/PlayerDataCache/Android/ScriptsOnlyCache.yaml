@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AudioManager
     - ButtonInteraction
     - HandController
+    - LabPuzzle
     - PlaySound
     - TimeTravel
     - Unity.Template.VR.XRPlatformControllerSetup
@@ -72,10 +73,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -203,73 +202,75 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1974}
+      Script: {instanceID: 1922}
     - Class: 114
-      Script: {instanceID: 2058}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2080}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2518}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3778}
+      Script: {instanceID: 3728}
     - Class: 114
-      Script: {instanceID: 3834}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 4708}
+      Script: {instanceID: 4658}
     - Class: 114
-      Script: {instanceID: 4714}
+      Script: {instanceID: 4664}
     - Class: 114
-      Script: {instanceID: 4798}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 4906}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 5192}
     - Class: 114
-      Script: {instanceID: 5268}
+      Script: {instanceID: 5218}
     - Class: 114
-      Script: {instanceID: 5560}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 6158}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 6396}
+      Script: {instanceID: 6346}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 7206}
+      Script: {instanceID: 7156}
     - Class: 114
-      Script: {instanceID: 7358}
+      Script: {instanceID: 7308}
     - Class: 114
-      Script: {instanceID: 7558}
+      Script: {instanceID: 7508}
     - Class: 114
-      Script: {instanceID: 7668}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 7930}
+      Script: {instanceID: 7880}
     - Class: 114
-      Script: {instanceID: 8016}
+      Script: {instanceID: 7926}
     - Class: 114
-      Script: {instanceID: 8030}
+      Script: {instanceID: 7968}
     - Class: 114
-      Script: {instanceID: 8532}
+      Script: {instanceID: 7982}
     - Class: 114
-      Script: {instanceID: 8568}
+      Script: {instanceID: 8484}
     - Class: 114
-      Script: {instanceID: 8694}
+      Script: {instanceID: 8520}
     - Class: 114
-      Script: {instanceID: 8846}
+      Script: {instanceID: 8646}
     - Class: 114
-      Script: {instanceID: 9456}
+      Script: {instanceID: 8798}
     - Class: 114
-      Script: {instanceID: 9464}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9526}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 9840}
+      Script: {instanceID: 9478}
+    - Class: 114
+      Script: {instanceID: 9792}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -479,6 +480,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 123ff7abeb8885a5fa3c8126d81b0add
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VictoryCondition
   - hash:
       serializedVersion: 2
       Hash: c803fd01e5575a3a4fff98d003eca290
@@ -1439,6 +1446,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 92296b6ab87c5e345a0c085d4b724757
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LabPuzzle
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
