@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32620 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 31961 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity Editor\2021.3.18f1\Editor\Unity.exe
+D:\UNI\Apps\2021.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
+D:/UNI/Y2/B1/repository/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55372
-Successfully changed project path to: C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
+58621
+Successfully changed project path to: D:/UNI/Y2/B1/repository/VR-Project/Hunting Whales VR V1
+D:/UNI/Y2/B1/repository/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,79 +47,79 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1088] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 53105032 [EditorId] 53105032 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [39072] Host "[IP] 192.168.2.13 [Port] 0 [Flags] 2 [Guid] 978363122 [EditorId] 978363122 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SE5B6PF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1088] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 53105032 [EditorId] 53105032 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [39072] Host "[IP] 192.168.2.13 [Port] 0 [Flags] 2 [Guid] 978363122 [EditorId] 978363122 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SE5B6PF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 109.96 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 71.30 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
-[Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1/Assets
+[Subsystems] Discovering subsystems at path D:/UNI/Apps/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNI/Y2/B1/repository/VR-Project/Hunting Whales VR V1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x24dc)
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
     Vendor:   NVIDIA
-    VRAM:     16191 MB
-    Driver:   31.0.15.4601
+    VRAM:     7962 MB
+    Driver:   31.0.15.3645
 Initialize mono
-Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Mono path[0] = 'D:/UNI/Apps/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNI/Apps/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNI/Apps/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002968 seconds.
+Register platform support module: D:/UNI/Apps/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UNI/Apps/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001237 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 259 ms
-Refreshing native plugins compatible for Editor in 99.76 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Android Extension - Scanning For ADB Devices 179 ms
+Refreshing native plugins compatible for Editor in 67.77 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
+- Completed reload, in  0.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (840ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (542ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (701ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (56ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (545ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (337ms)
+				InitializePlatformSupportModulesInManaged (221ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
+				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012362 seconds.
+Registered in 0.003007 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNI\Y2\B1\repository\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UNI\Y2\B1\repository\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 114.18 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 65.44 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\UNI\Y2\B1\repository\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\UNI\Y2\B1\repository\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
    --- End of inner exception stack trace ---
@@ -133,49 +133,50 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.191 seconds
+- Completed reload, in  0.953 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1192ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1002ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (539ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.20 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 4446 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (59.7 KB). Loaded Objects now: 4923.
-Memory consumption went from 167.8 MB to 167.8 MB.
-Total: 3.236100 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.612800 ms  DeleteObjects: 0.104100 ms)
+Memory consumption went from 167.9 MB to 167.9 MB.
+Total: 2.591200 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.198400 ms  DeleteObjects: 0.081100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,50 +184,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 159652.418243 seconds.
-  path: Assets/Military Checkpoint sign.fbx
-  artifactKey: Guid(2c0ad1dcf6862db4d8088a6cee98baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Military Checkpoint sign.fbx using Guid(2c0ad1dcf6862db4d8088a6cee98baa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff17809edc948b19f0cc616bc1a66b75') in 0.160135 seconds 
+  Time since last request: 262669.621326 seconds.
+  path: Assets/Assets Ileana/lab future.prefab
+  artifactKey: Guid(bf34e7e3eb1c5eb4f90a952cb43e6975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/lab future.prefab using Guid(bf34e7e3eb1c5eb4f90a952cb43e6975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6fc2c740413ea99a9a4686fa0cd4f2') in 0.494895 seconds 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 17.15 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4968.
-Memory consumption went from 82.4 MB to 82.4 MB.
-Total: 4.315800 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.272600 ms MarkObjects: 3.621300 ms  DeleteObjects: 0.030200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.685594 seconds.
+  path: Assets/Assets Ileana/Assets Ileana
+  artifactKey: Guid(a78af4a47ce0c694b9762e65f802ca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana using Guid(a78af4a47ce0c694b9762e65f802ca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9560f37dad33ae7fe2ba6715d0cd4a1a') in 0.004794 seconds 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 23.70 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (23.0 KB). Loaded Objects now: 4968.
-Memory consumption went from 82.4 MB to 82.4 MB.
-Total: 5.488100 ms (FindLiveObjects: 0.497900 ms CreateObjectMapping: 0.169900 ms MarkObjects: 4.784700 ms  DeleteObjects: 0.035000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-  custom:graphics/default-texture-compression-format: 04000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.047018 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/clock device add on 2 Color.png
+  artifactKey: Guid(87147b17ddf23594ca772eceabeb8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/clock device add on 2 Color.png using Guid(87147b17ddf23594ca772eceabeb8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ace24b1dad834a426997ffa5886d418') in 0.033544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/portal_animated.blend
+  artifactKey: Guid(ddd5e70b2913ab04dbfdbed2c2295ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/portal_animated.blend using Guid(ddd5e70b2913ab04dbfdbed2c2295ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b83a630ba9b2289799e73b8ac95d66') in 0.088124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/shelves.blend
+  artifactKey: Guid(a0221964df8ab1543841896046689afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/shelves.blend using Guid(a0221964df8ab1543841896046689afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba18bff46a578ff35600128c3c770a') in 0.032377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/lab_past.blend
+  artifactKey: Guid(0c9c19d87b2d0734cb6fc1ceee8abde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/lab_past.blend using Guid(0c9c19d87b2d0734cb6fc1ceee8abde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135e2f0525f0483ef0f304bf125a4d85') in 0.176505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/engine.blend
+  artifactKey: Guid(d3d7f4c2dc9572c4192cae8f5aeb53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/engine.blend using Guid(d3d7f4c2dc9572c4192cae8f5aeb53be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574483a378e191868eefde144069fa01') in 0.015525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/pipe quest Color.png
+  artifactKey: Guid(465caf40cd5522b409f19a225565a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/pipe quest Color.png using Guid(465caf40cd5522b409f19a225565a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e8ef6c9f0c24f02e32c89ec7046b22') in 0.007960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/fuse.blend
+  artifactKey: Guid(f663405c20d77c143b2b2f446bd76d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/fuse.blend using Guid(f663405c20d77c143b2b2f446bd76d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7899cb3270cbdac8443bbfb93536614') in 0.026672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/Cylinder Base Color.png
+  artifactKey: Guid(5db89d43bff27874e9ff196186d04743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/Cylinder Base Color.png using Guid(5db89d43bff27874e9ff196186d04743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92310c646838ab12ad3bc112bb3ff7a6') in 0.009791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/lab_past - Copy.blend
+  artifactKey: Guid(29eadd357de7f4c4da75a624cd1b6e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/lab_past - Copy.blend using Guid(29eadd357de7f4c4da75a624cd1b6e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6700f069b765043a38482d8aa1bb5df') in 0.182160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/clock.blend
+  artifactKey: Guid(47400dd625a4c554594c2552513cfd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/clock.blend using Guid(47400dd625a4c554594c2552513cfd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7a264bdf3eb495c5ca379880f20a83') in 0.028741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/fuse panel color.png
+  artifactKey: Guid(5dd96b022a750484481d96819a4c9854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/fuse panel color.png using Guid(5dd96b022a750484481d96819a4c9854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c558f5b0130d8a10fb0d39b38208f1cb') in 0.014923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/inside panel Color.png
+  artifactKey: Guid(609395621b7a6bf4cbe770509824527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/inside panel Color.png using Guid(609395621b7a6bf4cbe770509824527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73a51f0fd3c8884abd313d654fa1fbd') in 0.014132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/table.blend
+  artifactKey: Guid(fcc3bbac3aae53e439764558db1d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/table.blend using Guid(fcc3bbac3aae53e439764558db1d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8298f70cd1eeb1e99352884f2585b13c') in 0.023530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/portal walking path Color.png
+  artifactKey: Guid(e9cbad67b966e7a408842d32af72bdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/portal walking path Color.png using Guid(e9cbad67b966e7a408842d32af72bdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb231a2cb9ca005bf6046845932e780') in 0.010996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/portal_past.blend
+  artifactKey: Guid(2d17f8b551bcaf24d8d48b4af6cd996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/portal_past.blend using Guid(2d17f8b551bcaf24d8d48b4af6cd996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10665ef8230be10108a8e3a65692f175') in 0.023797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/lab_future.fbx
+  artifactKey: Guid(700e96146f71ccb44bc822eb93cfae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/lab_future.fbx using Guid(700e96146f71ccb44bc822eb93cfae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e79a2298ac8bca1a2c36e05935daf7') in 0.132677 seconds 
