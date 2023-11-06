@@ -15,7 +15,7 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55372
+55745
 Successfully changed project path to: C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
 C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [36144] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 1144807221 [EditorId] 1144807221 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21152] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 257842585 [EditorId] 257842585 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [36144] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 1144807221 [EditorId] 1144807221 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21152] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 257842585 [EditorId] 257842585 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 117.86 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.54 ms.
+Refreshing native plugins compatible for Editor in 108.35 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1/Assets
@@ -67,55 +67,55 @@ Initialize mono
 Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002962 seconds.
+Registered in 0.003036 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 266 ms
-Refreshing native plugins compatible for Editor in 101.01 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Android Extension - Scanning For ADB Devices 256 ms
+Refreshing native plugins compatible for Editor in 97.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
+- Completed reload, in  0.809 seconds
 Domain Reload Profiling:
-	ReloadAssembly (874ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (809ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (562ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (531ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (349ms)
+				InitializePlatformSupportModulesInManaged (320ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012524 seconds.
+Registered in 0.011284 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 101.94 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 93.56 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -133,43 +133,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  1.077 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1163ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (236ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (528ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (469ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.88 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Unloading 4446 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (59.7 KB). Loaded Objects now: 4923.
-Memory consumption went from 167.8 MB to 167.8 MB.
-Total: 3.499000 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.880900 ms  DeleteObjects: 0.130400 ms)
+Unloading 50 unused Assets / (58.0 KB). Loaded Objects now: 4923.
+Memory consumption went from 167.2 MB to 167.2 MB.
+Total: 3.059000 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.521000 ms  DeleteObjects: 0.068100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -182,45 +182,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 17.45 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4923.
-Memory consumption went from 78.0 MB to 78.0 MB.
-Total: 4.732500 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.131800 ms MarkObjects: 4.236100 ms  DeleteObjects: 0.023700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 161921.854660 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754ba5e382be6c3ebca5f00fb837121e') in 0.030784 seconds 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 21.56 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4923.
-Memory consumption went from 77.4 MB to 77.3 MB.
-Total: 5.642700 ms (FindLiveObjects: 0.579700 ms CreateObjectMapping: 0.388700 ms MarkObjects: 4.622200 ms  DeleteObjects: 0.050900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  colorSpace: 1 -> 0
-  custom:graphics/default-texture-compression-format: 04000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1371.842183 seconds.
+  path: Assets/Assets Ileana/lab_future_fixed.fbx
+  artifactKey: Guid(5f4d3f48e19d8ff47b7ecc6930bfaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/lab_future_fixed.fbx using Guid(5f4d3f48e19d8ff47b7ecc6930bfaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ea58eedf237971c13bf776374508f') in 0.444760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TreePuzzle/Tree/Tree 2.fbx
+  artifactKey: Guid(b39ce48e3be259443bb04e3e655c934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/Tree/Tree 2.fbx using Guid(b39ce48e3be259443bb04e3e655c934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04988d7ee1781fc89cc77090b442b4b8') in 0.058809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/Road.mat
+  artifactKey: Guid(e2a89766ae5b4a74fbe5769d9eb6d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/Road.mat using Guid(e2a89766ae5b4a74fbe5769d9eb6d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e89e1d7251ec380300de5ac865da84') in 0.320572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/electric_panel_closed.blend
+  artifactKey: Guid(377463bc766b05349883b7f8673a3eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/electric_panel_closed.blend using Guid(377463bc766b05349883b7f8673a3eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf85e77389db1ed52584c6fec3dcb0e') in 0.159902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StoryGuidancePosters/poster_Poster_SpawnRoom_Material.mat
+  artifactKey: Guid(7ab84ecda61cca64693bb21f5a733148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoryGuidancePosters/poster_Poster_SpawnRoom_Material.mat using Guid(7ab84ecda61cca64693bb21f5a733148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a28cc2dbb4e2d597b89c76bc4572f') in 0.242784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Signs.mat
+  artifactKey: Guid(1a57f7236c27ffc44951adf2ea9efedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Signs.mat using Guid(1a57f7236c27ffc44951adf2ea9efedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831a060e6ec18a37aad20bbd5bc089d5') in 0.040927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonCity/Materials/FX_Materials/Skyline_Mat.mat
+  artifactKey: Guid(d85b0c991d7ab78488a309346114f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Materials/FX_Materials/Skyline_Mat.mat using Guid(d85b0c991d7ab78488a309346114f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b497e95327d00011407342b4aa3b48') in 0.166839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SpawnRoom/Future/WallDeco/WallDecoFuture.mat
+  artifactKey: Guid(e24c1efa172e91440a74f198e463ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/WallDeco/WallDecoFuture.mat using Guid(e24c1efa172e91440a74f198e463ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977a397bb7710c4f845a51d585c13a64') in 0.197788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonSciFiCity/Materials/SphereGlow.mat
+  artifactKey: Guid(80ec062b25891c642a2f02c6761601a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/SphereGlow.mat using Guid(80ec062b25891c642a2f02c6761601a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a8b48c8cbc2c83019ae0b564639aa5') in 0.019821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BrokenVector/FreeLowPolyPack/Materials/Trees.mat
+  artifactKey: Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/FreeLowPolyPack/Materials/Trees.mat using Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefe8aba1eecbd5896e23a4a5bf0aef4') in 0.020495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonCity/Materials/FX_Materials/Steam_Mat.mat
+  artifactKey: Guid(47e542428617fb845a4b882c2b0a699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Materials/FX_Materials/Steam_Mat.mat using Guid(47e542428617fb845a4b882c2b0a699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d2b902025dd688eda8aa886dea68d1') in 0.038884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/electric_panel.blend
+  artifactKey: Guid(2a5e852f3f3568141b606359b2a6a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/electric_panel.blend using Guid(2a5e852f3f3568141b606359b2a6a5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad5bff60f60b60346636e437c997bed') in 0.130679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonCity/Materials/FX_Materials/RainWater_Mat.mat
+  artifactKey: Guid(47be28ae53899c440a4bdc7de32df96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Materials/FX_Materials/RainWater_Mat.mat using Guid(47be28ae53899c440a4bdc7de32df96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8528b6e68eb91f1c59837d4900f07894') in 0.018221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e88801c54239ce0c41ddffb8fc2df7b') in 0.040317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/shelves.blend
+  artifactKey: Guid(a0221964df8ab1543841896046689afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/shelves.blend using Guid(a0221964df8ab1543841896046689afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e7cc4a96b7bdaa2ade6c40698788c2') in 0.036874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BrokenVector/FreeLowPolyPack/Materials/Rocks.mat
+  artifactKey: Guid(18ec5123ab1b37446998bf1b1228a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/FreeLowPolyPack/Materials/Rocks.mat using Guid(18ec5123ab1b37446998bf1b1228a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7653398404537ec4fe99369ea24d13') in 0.012463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WarningSigns/WarningSign/WarningSignMaterial.mat
+  artifactKey: Guid(07e3d5cd17749934c90177396fd20bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarningSigns/WarningSign/WarningSignMaterial.mat using Guid(07e3d5cd17749934c90177396fd20bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23adc732be0d237dbd140292f6780a5') in 0.128629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonSciFiCity/Materials/Misc/Shield_Bubble.mat
+  artifactKey: Guid(b2ce98f3fac40fe4ba6320203ed6fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Materials/Misc/Shield_Bubble.mat using Guid(b2ce98f3fac40fe4ba6320203ed6fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeaa1bb90b336389d4478f1b94cc641') in 0.150250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StoryGuidancePosters/poster_Poster_Planting_Material.mat
+  artifactKey: Guid(b9f9657a97f7e764490f6301e5333af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoryGuidancePosters/poster_Poster_Planting_Material.mat using Guid(b9f9657a97f7e764490f6301e5333af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8cb3f39b7e1b526ea833162fc1398c') in 0.090561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StoryGuidancePosters/tape_Poster_SpawnRoom_Material.mat
+  artifactKey: Guid(53b0b8cecadac8549be7361c6a44a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoryGuidancePosters/tape_Poster_SpawnRoom_Material.mat using Guid(53b0b8cecadac8549be7361c6a44a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b39861b9df34a76d228674a808dc8aa') in 0.091623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StoryGuidancePosters/poster_Planting.fbx
+  artifactKey: Guid(26df9e578b78aab4e9833e04270b5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoryGuidancePosters/poster_Planting.fbx using Guid(26df9e578b78aab4e9833e04270b5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77084808cda26a3dcda8d40e230b2628') in 0.035002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/table.blend
+  artifactKey: Guid(fcc3bbac3aae53e439764558db1d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/table.blend using Guid(fcc3bbac3aae53e439764558db1d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbcab03bbf510771a506713af6747a3') in 0.039662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ExampleAssets/Materials/Controller.mat
+  artifactKey: Guid(3d2e36aacd7dc084b96e0755f1af4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Controller.mat using Guid(3d2e36aacd7dc084b96e0755f1af4137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ec442da72bdd58c4ba4c58bf5f19c') in 0.012976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TreePuzzle/TreeSeedPackage_1/SeedPackageMaterial/SeedPackage_1Material.mat
+  artifactKey: Guid(842aa04936fc986439b0b6b9f0ae72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePuzzle/TreeSeedPackage_1/SeedPackageMaterial/SeedPackage_1Material.mat using Guid(842aa04936fc986439b0b6b9f0ae72e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbaa96b256b9a8b13da9d3db1a55184') in 0.120409 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

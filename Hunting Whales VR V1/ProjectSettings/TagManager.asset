@@ -8,6 +8,7 @@ TagManager:
   - PastCity
   - Lab
   - Door
+  - Hand
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - Door
   - Water
   - UI
-  - 
-  - 
+  - Future
+  - Past
   - 
   - 
   - 
