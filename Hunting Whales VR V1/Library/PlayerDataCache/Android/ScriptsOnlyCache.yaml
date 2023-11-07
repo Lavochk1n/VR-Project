@@ -4,8 +4,9 @@ ScriptsOnlyBuild:
     - AudioManager
     - ButtonInteraction
     - HandController
-    - LabPuzzle
+    - PlantingArea
     - PlaySound
+    - SeedPack
     - TimeTravel
     - Unity.Template.VR.XRPlatformControllerSetup
     Unity.InputSystem.dll:
@@ -37,9 +38,10 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
+    - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
+    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
-    - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
-    - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
+    - UnityEngine.XR.Interaction.Toolkit.XRSimpleInteractable
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -73,8 +75,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -120,11 +124,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     Unity.XR.Interaction.Toolkit:
+    - UnityEngine.XR.Interaction.Toolkit.ActivateEvent
+    - UnityEngine.XR.Interaction.Toolkit.DeactivateEvent
     - UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent
     - UnityEngine.XR.Interaction.Toolkit.HoverExitEvent
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask
     - UnityEngine.XR.Interaction.Toolkit.SelectEnterEvent
     - UnityEngine.XR.Interaction.Toolkit.SelectExitEvent
+    - UnityEngine.XR.Interaction.Toolkit.XRInteractableEvent
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorEvent
     Unity.XR.OpenXR.Features.MetaQuestSupport:
     - UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature/TargetDevice
@@ -151,6 +158,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInteraction
+    methodName: OnTriggerEnter
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -173,6 +183,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -182,8 +194,6 @@ ScriptsOnlyBuild:
     - Class: 81
       Script: {instanceID: 0}
     - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -202,78 +212,80 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1922}
+      Script: {instanceID: 1950}
     - Class: 114
-      Script: {instanceID: 2006}
+      Script: {instanceID: 2034}
     - Class: 114
-      Script: {instanceID: 2080}
+      Script: {instanceID: 2546}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 3728}
+      Script: {instanceID: 3812}
     - Class: 114
-      Script: {instanceID: 3784}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 4658}
+      Script: {instanceID: 4686}
     - Class: 114
-      Script: {instanceID: 4664}
+      Script: {instanceID: 4692}
     - Class: 114
-      Script: {instanceID: 4748}
+      Script: {instanceID: 4776}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4884}
     - Class: 114
-      Script: {instanceID: 5192}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 5218}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5538}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 5568}
     - Class: 114
-      Script: {instanceID: 6108}
+      Script: {instanceID: 6136}
     - Class: 114
-      Script: {instanceID: 6346}
+      Script: {instanceID: 6374}
     - Class: 114
-      Script: {instanceID: 6534}
+      Script: {instanceID: 6562}
     - Class: 114
-      Script: {instanceID: 7156}
+      Script: {instanceID: 7038}
     - Class: 114
-      Script: {instanceID: 7308}
+      Script: {instanceID: 7184}
     - Class: 114
-      Script: {instanceID: 7508}
+      Script: {instanceID: 7336}
     - Class: 114
-      Script: {instanceID: 7618}
+      Script: {instanceID: 7536}
     - Class: 114
-      Script: {instanceID: 7880}
+      Script: {instanceID: 7646}
     - Class: 114
-      Script: {instanceID: 7926}
+      Script: {instanceID: 7996}
     - Class: 114
-      Script: {instanceID: 7968}
+      Script: {instanceID: 8010}
     - Class: 114
-      Script: {instanceID: 7982}
+      Script: {instanceID: 8512}
     - Class: 114
-      Script: {instanceID: 8484}
+      Script: {instanceID: 8548}
     - Class: 114
-      Script: {instanceID: 8520}
+      Script: {instanceID: 8674}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 8826}
     - Class: 114
-      Script: {instanceID: 8798}
+      Script: {instanceID: 8828}
     - Class: 114
-      Script: {instanceID: 9408}
+      Script: {instanceID: 8916}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9436}
     - Class: 114
-      Script: {instanceID: 9478}
+      Script: {instanceID: 9444}
     - Class: 114
-      Script: {instanceID: 9792}
+      Script: {instanceID: 9506}
+    - Class: 114
+      Script: {instanceID: 9820}
+    - Class: 114
+      Script: {instanceID: 3178200}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -292,8 +304,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 210
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1310,6 +1320,12 @@ ScriptsOnlyBuild:
     className: TrackedDevicePhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 05f8f30cc6146fad3c3de033cf2b3457
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SeedPack
+  - hash:
+      serializedVersion: 2
       Hash: a76da47f20a47e66b2fc6e8da5f34a4b
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Audio
@@ -1968,6 +1984,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e604bf3b2c87ef43ada91128f70141fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlantingArea
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

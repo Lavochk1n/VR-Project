@@ -39,7 +39,7 @@ public class TimeTravel : MonoBehaviour
         else
         {
             // Check for the "Y" button press on the left controller
-            if (Input.GetButtonDown("XRI_Left_TriggerButton"))
+            if (Input.GetButtonDown("XRI_Left_SecondaryButton"))
             {
                 if (Time.time >= timeToEffect)
                 {

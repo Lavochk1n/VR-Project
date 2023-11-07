@@ -1,38 +1,24 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.XR.Interaction.Toolkit;
-using UnityEngine.XR;
-using UnityEngine.Rendering;
 
 public class ButtonInteraction : MonoBehaviour
 {
-    [SerializeField] GameObject lockedDoorPrefab; // The locked door prefab
-    [SerializeField] GameObject openDoorPrefab;   // The open door prefab
+    [SerializeField] GameObject lockedDoorPrefab; // Reference to the locked door prefab
+    [SerializeField] GameObject openDoorPrefab;   // Reference to the open door prefab
 
-    private bool isDoorOpen = false;
+    private bool isButtonPressed = false;
 
-    private void Start()
+    public void OnTriggerEnter(Collider other)
     {
-        // Spawn the initial locked door in the future
-        Instantiate(lockedDoorPrefab, transform.position, transform.rotation);
-    }
-
-    public void OnButtonPress()
-    {
-        if (!isDoorOpen)
+        if (!isButtonPressed && other.CompareTag("Hand"))
         {
-            // Delete the current door prefab (locked door) in the future
-            Destroy(GameObject.FindGameObjectWithTag("Door"));
-            
-            FindObjectOfType<AudioManager>().Play("ButtonClick");
+            // Disable the locked door
+            lockedDoorPrefab.SetActive(false);
 
-            // Spawn the open door prefab in the future
-            Instantiate(openDoorPrefab, transform.position, transform.rotation);
-            
-            FindObjectOfType<AudioManager>().Play("FutureDoorOpen");
+            // Enable the open door
+            openDoorPrefab.SetActive(true);
 
-            isDoorOpen = true;
+            isButtonPressed = true;
         }
     }
 }
