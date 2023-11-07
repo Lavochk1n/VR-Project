@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AudioManager
     - ButtonInteraction
     - HandController
+    - LabPuzzle
     - PlantingArea
     - PlaySound
     - SeedPack
@@ -195,6 +196,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -212,79 +215,81 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1950}
+      Script: {instanceID: 1922}
     - Class: 114
-      Script: {instanceID: 2034}
+      Script: {instanceID: 2006}
     - Class: 114
-      Script: {instanceID: 2546}
+      Script: {instanceID: 2518}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 3170}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3756}
+      Script: {instanceID: 3728}
     - Class: 114
-      Script: {instanceID: 3812}
+      Script: {instanceID: 3784}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 4686}
+      Script: {instanceID: 4658}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4664}
     - Class: 114
-      Script: {instanceID: 4776}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 4884}
+      Script: {instanceID: 4856}
+    - Class: 114
+      Script: {instanceID: 4920}
+    - Class: 114
+      Script: {instanceID: 5194}
     - Class: 114
       Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 5512}
     - Class: 114
-      Script: {instanceID: 5538}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 6110}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 6374}
+      Script: {instanceID: 6536}
     - Class: 114
-      Script: {instanceID: 6562}
+      Script: {instanceID: 7012}
     - Class: 114
-      Script: {instanceID: 7038}
+      Script: {instanceID: 7158}
     - Class: 114
-      Script: {instanceID: 7184}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 7336}
+      Script: {instanceID: 7510}
     - Class: 114
-      Script: {instanceID: 7536}
+      Script: {instanceID: 7620}
     - Class: 114
-      Script: {instanceID: 7646}
+      Script: {instanceID: 7928}
     - Class: 114
-      Script: {instanceID: 7996}
+      Script: {instanceID: 7970}
     - Class: 114
-      Script: {instanceID: 8010}
+      Script: {instanceID: 7984}
     - Class: 114
-      Script: {instanceID: 8512}
+      Script: {instanceID: 8486}
     - Class: 114
-      Script: {instanceID: 8548}
+      Script: {instanceID: 8522}
     - Class: 114
-      Script: {instanceID: 8674}
+      Script: {instanceID: 8648}
     - Class: 114
-      Script: {instanceID: 8826}
+      Script: {instanceID: 8800}
     - Class: 114
-      Script: {instanceID: 8828}
+      Script: {instanceID: 8802}
     - Class: 114
-      Script: {instanceID: 8916}
+      Script: {instanceID: 8890}
     - Class: 114
-      Script: {instanceID: 9436}
+      Script: {instanceID: 9410}
     - Class: 114
-      Script: {instanceID: 9444}
+      Script: {instanceID: 9418}
     - Class: 114
-      Script: {instanceID: 9506}
+      Script: {instanceID: 9480}
     - Class: 114
-      Script: {instanceID: 9820}
-    - Class: 114
-      Script: {instanceID: 3178200}
+      Script: {instanceID: 9794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -964,6 +969,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: e604bf3b2c87ef43ada91128f70141fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlantingArea
   - hash:
       serializedVersion: 2
       Hash: c4b9d3c5d3592ce2a1451f30b017d56d
@@ -1984,12 +1995,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: e604bf3b2c87ef43ada91128f70141fc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlantingArea
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
