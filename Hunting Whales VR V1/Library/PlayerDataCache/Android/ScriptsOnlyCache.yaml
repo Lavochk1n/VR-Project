@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - AudioManager
     - ButtonInteraction
     - HandController
-    - LabPuzzle
     - PlantingArea
     - PlaySound
     - SeedPack
@@ -25,6 +24,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
@@ -215,81 +215,83 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1922}
+      Script: {instanceID: 1966}
     - Class: 114
-      Script: {instanceID: 2006}
+      Script: {instanceID: 2050}
     - Class: 114
-      Script: {instanceID: 2518}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 3728}
+      Script: {instanceID: 3772}
     - Class: 114
-      Script: {instanceID: 3784}
+      Script: {instanceID: 3828}
     - Class: 114
-      Script: {instanceID: 4276}
+      Script: {instanceID: 4320}
     - Class: 114
-      Script: {instanceID: 4658}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4664}
+      Script: {instanceID: 4702}
     - Class: 114
-      Script: {instanceID: 4748}
+      Script: {instanceID: 4708}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4792}
     - Class: 114
-      Script: {instanceID: 4920}
+      Script: {instanceID: 4900}
     - Class: 114
-      Script: {instanceID: 5194}
+      Script: {instanceID: 4964}
     - Class: 114
-      Script: {instanceID: 5220}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5542}
+      Script: {instanceID: 5556}
     - Class: 114
-      Script: {instanceID: 6110}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 6154}
     - Class: 114
-      Script: {instanceID: 6536}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 7012}
+      Script: {instanceID: 6580}
     - Class: 114
-      Script: {instanceID: 7158}
+      Script: {instanceID: 7056}
     - Class: 114
-      Script: {instanceID: 7310}
+      Script: {instanceID: 7202}
     - Class: 114
-      Script: {instanceID: 7510}
+      Script: {instanceID: 7354}
     - Class: 114
-      Script: {instanceID: 7620}
+      Script: {instanceID: 7554}
     - Class: 114
-      Script: {instanceID: 7928}
+      Script: {instanceID: 7664}
     - Class: 114
-      Script: {instanceID: 7970}
+      Script: {instanceID: 7972}
     - Class: 114
-      Script: {instanceID: 7984}
+      Script: {instanceID: 8014}
     - Class: 114
-      Script: {instanceID: 8486}
+      Script: {instanceID: 8028}
     - Class: 114
-      Script: {instanceID: 8522}
+      Script: {instanceID: 8530}
     - Class: 114
-      Script: {instanceID: 8648}
+      Script: {instanceID: 8566}
     - Class: 114
-      Script: {instanceID: 8800}
+      Script: {instanceID: 8692}
     - Class: 114
-      Script: {instanceID: 8802}
+      Script: {instanceID: 8844}
     - Class: 114
-      Script: {instanceID: 8890}
+      Script: {instanceID: 8846}
     - Class: 114
-      Script: {instanceID: 9410}
+      Script: {instanceID: 8934}
     - Class: 114
-      Script: {instanceID: 9418}
+      Script: {instanceID: 9454}
     - Class: 114
-      Script: {instanceID: 9480}
+      Script: {instanceID: 9462}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9524}
+    - Class: 114
+      Script: {instanceID: 9838}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -305,10 +307,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -495,12 +493,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR.dll
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 123ff7abeb8885a5fa3c8126d81b0add
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VictoryCondition
   - hash:
       serializedVersion: 2
       Hash: c803fd01e5575a3a4fff98d003eca290
@@ -1473,12 +1465,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRRayInteractor
-  - hash:
-      serializedVersion: 2
-      Hash: 92296b6ab87c5e345a0c085d4b724757
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LabPuzzle
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816

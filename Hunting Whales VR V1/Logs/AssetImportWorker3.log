@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32620 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 7544 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity Editor\2021.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
+C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-61659
-Successfully changed project path to: C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
-C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
+53239
+Successfully changed project path to: C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1
+C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,79 +47,82 @@ C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28096] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 1318135666 [EditorId] 1318135666 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23952] Host "[IP] 10.51.80.56 [Port] 0 [Flags] 2 [Guid] 2522899666 [EditorId] 2522899666 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8LQSREQM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28096] Host "[IP] 25.16.200.250 [Port] 0 [Flags] 2 [Guid] 1318135666 [EditorId] 1318135666 [Version] 1048832 [Id] WindowsEditor(7,Rocketship-77) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23952] Host "[IP] 10.51.80.56 [Port] 0 [Flags] 2 [Guid] 2522899666 [EditorId] 2522899666 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-8LQSREQM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 167.50 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
+Refreshing native plugins compatible for Editor in 191.69 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.37 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
-[Subsystems] Discovering subsystems at path E:/Unity Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/samra/Documents/GitHub/VR-Project/Hunting Whales VR V1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Caspe/Game Projects/Unity/VR Project/VR-Project/Hunting Whales VR V1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x24dc)
-    Vendor:   NVIDIA
-    VRAM:     16191 MB
-    Driver:   31.0.15.4601
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     3772 MB
+    Driver:   30.0.13040.5001
 Initialize mono
-Mono path[0] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/Unity Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003171 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023513 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 256 ms
-Refreshing native plugins compatible for Editor in 96.21 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Android Extension - Scanning For ADB Devices 1053 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 261.74 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.844 seconds
+- Completed reload, in  3.036 seconds
 Domain Reload Profiling:
-	ReloadAssembly (845ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (3037ms)
+		BeginReloadAssembly (411ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (695ms)
-			LoadAssemblies (56ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (2312ms)
+			LoadAssemblies (416ms)
+			RebuildTransferFunctionScriptingTraits (32ms)
+			SetupTypeCache (353ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1747ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (325ms)
+				InitializePlatformSupportModulesInManaged (1271ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (262ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011315 seconds.
+Registered in 0.065932 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.41 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.07 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\samra\Documents\GitHub\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
    --- End of inner exception stack trace ---
@@ -133,49 +136,614 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
+- Completed reload, in  6.909 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1029ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (6910ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (854ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (6606ms)
+			LoadAssemblies (3733ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
+			SetupTypeCache (1681ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (466ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1106ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (264ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (542ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (58.1 KB). Loaded Objects now: 4924.
-Memory consumption went from 168.1 MB to 168.0 MB.
-Total: 3.049600 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.123200 ms MarkObjects: 2.526500 ms  DeleteObjects: 0.081900 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 4445 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (58.1 KB). Loaded Objects now: 4922.
+Memory consumption went from 169.4 MB to 169.3 MB.
+Total: 4.401500 ms (FindLiveObjects: 0.622100 ms CreateObjectMapping: 0.342100 ms MarkObjects: 3.280600 ms  DeleteObjects: 0.154800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 235133.602197 seconds.
+  path: Assets/VR Hands/GloveBase/BaseHand_Material.001_Emissive.png
+  artifactKey: Guid(3d3635b37e6f98a4ea7382498b45bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Hands/GloveBase/BaseHand_Material.001_Emissive.png using Guid(3d3635b37e6f98a4ea7382498b45bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f43f330753250926bdb8ddb087d78f0') in 0.398813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SpawnRoom/Future/FutureDivider/Future_Divider.prefab
+  artifactKey: Guid(070bdcad9c83eb04cb201f35e709a9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FutureDivider/Future_Divider.prefab using Guid(070bdcad9c83eb04cb201f35e709a9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1596ac23f8014daad354cb95b2d06d7') in 0.918807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/clock device.blend
+  artifactKey: Guid(036dc9572471e534f8d7a8392efc405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/clock device.blend using Guid(036dc9572471e534f8d7a8392efc405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3073b026139952d859237d9a9919ae7b') in 0.369739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SpawnRoom/Future/FutureDivider/FutureDivider.mat
+  artifactKey: Guid(63011dea96e7afd4fa1a351a0df7a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FutureDivider/FutureDivider.mat using Guid(63011dea96e7afd4fa1a351a0df7a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abc39e06c467b10f7fb1450aae4f383') in 0.217941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_Height.png
+  artifactKey: Guid(6a70996d9815b6148a90e3848f97b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_Height.png using Guid(6a70996d9815b6148a90e3848f97b530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6313607853a8c0b13b3e9a7e1958a') in 0.071405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SpawnRoom/Future/FloorEdge/FloorEdge_DefaultMaterial_Emissive.png
+  artifactKey: Guid(08d6519e21896c444ac89378ceed2269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FloorEdge/FloorEdge_DefaultMaterial_Emissive.png using Guid(08d6519e21896c444ac89378ceed2269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2675a4dae6daad6ddf30cf06435f41') in 0.057279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Lowpoly Flowers/flower03.fbx
+  artifactKey: Guid(b332dc24cbb08144da2f112f82406700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower03.fbx using Guid(b332dc24cbb08144da2f112f82406700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8018c0a171d7da55dab9df684868321') in 0.221065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_BaseColor.png
+  artifactKey: Guid(95d0e25f5a5915141940497274980166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_BaseColor.png using Guid(95d0e25f5a5915141940497274980166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa79f62c087d7b7ac90684da51eb9cae') in 0.116722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Lowpoly Flowers/flower06.fbx
+  artifactKey: Guid(ab34fd65b601dab41915f4e874408d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower06.fbx using Guid(ab34fd65b601dab41915f4e874408d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f90a20cd9694b0d8765314f4a05e58') in 0.387171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_Metallic.png
+  artifactKey: Guid(73eb8253bc8a7cb46a15977e21906736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_Metallic.png using Guid(73eb8253bc8a7cb46a15977e21906736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bc7c05aa86d26cf53d5939eef984fd') in 0.064432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonCity/Models/Characters.fbx
+  artifactKey: Guid(897b34267f422c1499700402763d096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Models/Characters.fbx using Guid(897b34267f422c1499700402763d096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da36d3a2d4bdc9d92ea147bf588bc7b6') in 0.233612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Ileana/Assets Ileana/clock device add on Color.png
+  artifactKey: Guid(7a49b67db7a2b4d45886bddeb923599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Ileana/Assets Ileana/clock device add on Color.png using Guid(7a49b67db7a2b4d45886bddeb923599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d63528e1f565c6fc5e66c7b6a60aa6') in 0.024781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_Emissive.png
+  artifactKey: Guid(fa6f2a50442f52a4681d507b59d34607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpawnRoom/Future/FutureDivider/FutureDivider_Material_Emissive.png using Guid(fa6f2a50442f52a4681d507b59d34607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c786040d2397b68ae4b444ebd84451') in 0.056189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Lowpoly Flowers/flower01.fbx
+  artifactKey: Guid(da1981c3ee8ea7e4186a753e15495628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Flowers/flower01.fbx using Guid(da1981c3ee8ea7e4186a753e15495628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1af96ac279b31843d26418248182cf1') in 0.123879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PolygonSciFiCity/Models/FixedScaleCharacters/Characters.fbx
+  artifactKey: Guid(4cf8e35218228c74e87ae151b5dc4516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonSciFiCity/Models/FixedScaleCharacters/Characters.fbx using Guid(4cf8e35218228c74e87ae151b5dc4516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c4f5ffda047770367c0169687b5622') in 0.329350 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 36.04 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4969.
+Memory consumption went from 83.0 MB to 83.0 MB.
+Total: 199.901200 ms (FindLiveObjects: 1.203300 ms CreateObjectMapping: 0.193000 ms MarkObjects: 198.379200 ms  DeleteObjects: 0.123700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.02 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4969.
+Memory consumption went from 83.0 MB to 83.0 MB.
+Total: 261.515800 ms (FindLiveObjects: 1.037800 ms CreateObjectMapping: 0.187500 ms MarkObjects: 260.112500 ms  DeleteObjects: 0.176900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.57 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4969.
+Memory consumption went from 83.0 MB to 83.0 MB.
+Total: 265.073600 ms (FindLiveObjects: 1.097600 ms CreateObjectMapping: 0.178100 ms MarkObjects: 263.695300 ms  DeleteObjects: 0.101000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.77 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4969.
+Memory consumption went from 83.0 MB to 83.0 MB.
+Total: 259.023300 ms (FindLiveObjects: 0.906100 ms CreateObjectMapping: 0.150200 ms MarkObjects: 257.861000 ms  DeleteObjects: 0.103500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2805.237067 seconds.
+  path: Assets/Audio/Sounds/General/TimeTravel.wav
+  artifactKey: Guid(fb3d5ba4a0b9ba64293116a7f0d6c387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/General/TimeTravel.wav using Guid(fb3d5ba4a0b9ba64293116a7f0d6c387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51810a267115e4d0c19bb05f76b9fb0') in 1.169280 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009559 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1875ms)
+		BeginReloadAssembly (664ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (371ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.40 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 4405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4974.
+Memory consumption went from 171.7 MB to 171.7 MB.
+Total: 5.192800 ms (FindLiveObjects: 0.407400 ms CreateObjectMapping: 0.126700 ms MarkObjects: 4.580400 ms  DeleteObjects: 0.077100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 56.33 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4974.
+Memory consumption went from 83.0 MB to 83.0 MB.
+Total: 79.278600 ms (FindLiveObjects: 0.934600 ms CreateObjectMapping: 0.313800 ms MarkObjects: 77.748400 ms  DeleteObjects: 0.279200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24.19 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4974.
+Memory consumption went from 82.7 MB to 82.7 MB.
+Total: 65.432800 ms (FindLiveObjects: 2.029400 ms CreateObjectMapping: 0.183400 ms MarkObjects: 63.149800 ms  DeleteObjects: 0.068800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014255 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.34 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3243ms)
+		BeginReloadAssembly (1389ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (82ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (583ms)
+		EndReloadAssembly (1668ms)
+			LoadAssemblies (333ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (609ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.69 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (25.8 KB). Loaded Objects now: 4978.
+Memory consumption went from 171.7 MB to 171.7 MB.
+Total: 11.807800 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.227600 ms MarkObjects: 10.663200 ms  DeleteObjects: 0.446900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1819.578136 seconds.
+  path: Assets/Audio/Sounds/Puzzles/Spawn/FutureDoorOpen.wav
+  artifactKey: Guid(eeaf69392447fbf43b85a052aa875705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/Puzzles/Spawn/FutureDoorOpen.wav using Guid(eeaf69392447fbf43b85a052aa875705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aca56bf991d2adaad829cae518ce786') in 0.100885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.976816 seconds.
+  path: Assets/Audio/Sounds/Puzzles/City/PastCityBackground.wav
+  artifactKey: Guid(8873933e8217d5d4babc65b04fa13d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sounds/Puzzles/City/PastCityBackground.wav using Guid(8873933e8217d5d4babc65b04fa13d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a8fc4f0e24373a037e825a40c05ca1') in 0.031665 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2431ms)
+		BeginReloadAssembly (359ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1936ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (85ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (189ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.59 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (25.8 KB). Loaded Objects now: 4982.
+Memory consumption went from 171.7 MB to 171.7 MB.
+Total: 8.316700 ms (FindLiveObjects: 0.797300 ms CreateObjectMapping: 0.179100 ms MarkObjects: 6.980700 ms  DeleteObjects: 0.357500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 23.77 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (22.9 KB). Loaded Objects now: 4982.
+Memory consumption went from 83.0 MB to 83.0 MB.
+Total: 52.373900 ms (FindLiveObjects: 0.700600 ms CreateObjectMapping: 0.124200 ms MarkObjects: 51.126900 ms  DeleteObjects: 0.420600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.049539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Caspe\Game Projects\Unity\VR Project\VR-Project\Hunting Whales VR V1\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <1f66344f2f89470293d8b67d71308c07>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1883ms)
+		BeginReloadAssembly (615ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (238ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (281ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.07 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (25.7 KB). Loaded Objects now: 4986.
+Memory consumption went from 171.7 MB to 171.7 MB.
+Total: 4.615100 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.156300 ms MarkObjects: 3.849500 ms  DeleteObjects: 0.134600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.14 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (23.0 KB). Loaded Objects now: 4986.
+Memory consumption went from 83.1 MB to 83.0 MB.
+Total: 4.277300 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.141000 ms MarkObjects: 3.191400 ms  DeleteObjects: 0.566600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 

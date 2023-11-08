@@ -25,8 +25,11 @@ public class SeedPack : MonoBehaviour
         // Deactivate the current building in the future.
         buildingToDeactivate.SetActive(false);
 
+        FindObjectOfType<AudioManager>().Play("TreePlant");
+
         // Activate the future city building.
         futureCityBuilding.SetActive(true);
+
 
         // Destroy the seed pack since it's planted.
         Destroy(gameObject);

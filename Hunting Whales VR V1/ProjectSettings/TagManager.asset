@@ -9,6 +9,7 @@ TagManager:
   - Lab
   - Hand
   - SeedPack
+  - tube
   layers:
   - Default
   - TransparentFX

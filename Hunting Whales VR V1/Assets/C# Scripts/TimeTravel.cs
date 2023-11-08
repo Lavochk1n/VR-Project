@@ -12,6 +12,7 @@ public class TimeTravel : MonoBehaviour
     [SerializeField] float cooldownTime = 1.0f;
     [SerializeField] float transitionDuration = 0.5f;
 
+
     private bool presentIsVisible = true;
     private float timeToEffect = 0f;
     private float lastEffectTime = 0f;
@@ -47,6 +48,7 @@ public class TimeTravel : MonoBehaviour
                     lastEffectTime = Time.time;
                     isCoolingDown = true;
                     StartCoroutine(TransitionEffect());
+                    FindObjectOfType<AudioManager>().Play("TimeTravel");
                 }
             }
         }
